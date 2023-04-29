@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="row clearfix">
+        <div class="col-md-2 column">
+&nbsp
+{#            <div class="form-group">#}
+{#                <label for="exampleInputEmail1">工作类别开始</label><input type="number" class="form-control"#}
+{#                                                                     id="positionNameStart" placeholder="默认100"/>#}
+{#            </div>#}
+{#            <div class="form-group">#}
+{#                <label for="exampleInputPassword1">工作类别结束</label><input type="number" class="form-control"#}
+{#                                                                        id="positionNameEnd" placeholder="默认150"/>#}
+{#            </div>#}
+{#            <button type="submit" class="btn btn-default" id="positionNameSubmit">Submit</button>#}
+
+        </div>
+        <div class="col-md-8 column">
+            <div id="bar" style="width:1000px; height:600px;"></div>
+            &nbsp;
+        </div>
+        <div class="col-md-2 column">
+            &nbsp;
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block script %}
+
+<script>
+    var chart = echarts.init(document.getElementById('bar'), 'white', {renderer: 'canvas'});
+
+    $(
+        function () {
+            fetchData(chart);
+        }
+    );
+
+    function fetchData() {
+        $.ajax({
+            type: "GET",
+            url: "/demo/PositionNameView",
+            dataType: 'json',
+            success: function (result) {
+                chart.setOption(result.data);
+            }
+        });
+    }
+
+    $('#positionNameSubmit').click(function () {
+        $.ajax({
+            url: "/demo/PositionNameView",
+            type: 'get',
+            data: {
+                // 两种获取csrf校验值的方式
+
+
+                "start": $('#positionNameStart').val(),
+                "end": $('#positionNameEnd').val(),
+            }, beforeSend: function () {
+
+            },
+            success: function (result) {
+
+                if (result) {
+                    // 登录成功直接跳转网址主页
+                    var chart = echarts.init(document.getElementById('bar'), 'white', {renderer: 'canvas'});
+                    chart.setOption(result.data);
+
+                } else {
+                    // 将错误信息统一渲染到button按钮下面的span标签中
+
+                }
+            }
+        })
+
+    })
+</script>
+{% endblock %}

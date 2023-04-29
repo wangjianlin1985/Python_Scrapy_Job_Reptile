@@ -1,0 +1,2875 @@
+Watching for file changes with StatReloader
+[12/Mar/2021 09:57:00] "GET /companySize/ HTTP/1.1" 200 4434
+[12/Mar/2021 09:57:01] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[12/Mar/2021 09:57:02] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 09:57:02] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 09:57:19] "GET /companySize/ HTTP/1.1" 200 4434
+[12/Mar/2021 09:57:19] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[12/Mar/2021 10:04:19] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 10:04:20] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 10:04:21] "GET /salary/ HTTP/1.1" 200 3586
+[12/Mar/2021 10:04:21] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[12/Mar/2021 10:04:53] "GET /industryField/ HTTP/1.1" 200 4437
+[12/Mar/2021 10:04:54] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[12/Mar/2021 10:05:23] "GET /companySize/ HTTP/1.1" 200 4434
+[12/Mar/2021 10:05:23] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[12/Mar/2021 10:05:43] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 10:05:43] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 10:06:01] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 10:06:04] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 10:06:05] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 10:06:08] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 10:06:09] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 10:06:17] "GET /wordCloud/ HTTP/1.1" 200 4433
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.830 seconds.
+Prefix dict has been built successfully.
+[12/Mar/2021 10:06:19] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 10:06:20] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 10:06:34] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 10:06:40] "GET /demo/WordCloudView/ HTTP/1.1" 200 2574599
+[12/Mar/2021 10:09:45] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 10:09:47] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 10:09:49] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:09:52] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 10:09:53] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 10:10:07] "GET /? HTTP/1.1" 200 5111
+[12/Mar/2021 10:10:08] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 10:10:10] "GET /salary/ HTTP/1.1" 200 3586
+[12/Mar/2021 10:10:12] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[12/Mar/2021 10:10:13] "GET /demo/WordCloudView/ HTTP/1.1" 200 2575248
+[12/Mar/2021 10:10:14] "GET /industryField/ HTTP/1.1" 200 4437
+[12/Mar/2021 10:10:14] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[12/Mar/2021 10:10:16] "GET /companySize/ HTTP/1.1" 200 4434
+[12/Mar/2021 10:10:17] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[12/Mar/2021 10:10:19] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 10:10:19] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 10:10:21] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 10:10:24] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 10:10:24] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 10:10:26] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:10:27] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 10:10:28] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 10:10:47] "GET /demo/WordCloudView/ HTTP/1.1" 200 2574503
+/usr/local/python/jobas/app01/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2021 - 09:56:35
+Django version 3.1.7, using settings 'JobAs.settings'
+Starting development server at http://0.0.0.0:9898/
+Quit the server with CONTROL-C.
+100
+150
+100
+150
+100
+150
+Watching for file changes with StatReloader
+[12/Mar/2021 10:26:50] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 10:26:51] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+Not Found: /favicon.ico
+[12/Mar/2021 10:26:51] "GET /favicon.ico HTTP/1.1" 404 3993
+[12/Mar/2021 10:26:51] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:26:52] "GET /demo/WordCloudView/ HTTP/1.1" 200 96274
+[12/Mar/2021 10:26:58] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 10:26:58] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 10:26:59] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 10:27:00] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 10:27:00] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 10:27:01] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:27:01] "GET /demo/WordCloudView/ HTTP/1.1" 200 96197
+/usr/local/python/jobas/app01/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2021 - 10:26:36
+Django version 3.1.7, using settings 'JobAs.settings'
+Starting development server at http://0.0.0.0:9898/
+Quit the server with CONTROL-C.
+100
+150
+Watching for file changes with StatReloader
+/usr/local/python/jobas/app01/utils.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2021 - 10:28:05
+Django version 3.1.7, using settings 'JobAs.settings'
+Starting development server at http://0.0.0.0:9898/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[12/Mar/2021 10:28:28] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:28:28] "GET /demo/WordCloudView/ HTTP/1.1" 200 96281
+[12/Mar/2021 10:28:29] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:28:30] "GET /demo/WordCloudView/ HTTP/1.1" 200 96173
+[12/Mar/2021 10:28:30] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:28:30] "GET /demo/WordCloudView/ HTTP/1.1" 200 96168
+[12/Mar/2021 10:28:30] "GET /wordCloud/ HTTP/1.1" 200 4433
+----------------------------------------
+Exception happened during processing of request from ('36.7.111.51', 5772)
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[12/Mar/2021 10:28:30] "GET /demo/WordCloudView/ HTTP/1.1" 200 96166
+[12/Mar/2021 10:28:30] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:28:30] "GET /demo/WordCloudView/ HTTP/1.1" 200 96219
+[12/Mar/2021 10:28:30] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:28:30] "GET /demo/WordCloudView/ HTTP/1.1" 200 96251
+----------------------------------------
+Exception happened during processing of request from ('36.7.111.51', 11182)
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[12/Mar/2021 10:28:32] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:28:32] "GET /demo/WordCloudView/ HTTP/1.1" 200 96178
+[12/Mar/2021 10:28:32] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 10:28:33] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 10:28:33] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 10:28:33] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 10:28:34] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:28:34] "GET /demo/WordCloudView/ HTTP/1.1" 200 96202
+[12/Mar/2021 10:28:35] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:28:35] "GET /demo/WordCloudView/ HTTP/1.1" 200 96197
+[12/Mar/2021 10:28:36] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:28:36] "GET /demo/WordCloudView/ HTTP/1.1" 200 96155
+[12/Mar/2021 10:28:36] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:28:36] "GET /demo/WordCloudView/ HTTP/1.1" 200 96172
+[12/Mar/2021 10:28:38] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:28:38] "GET /demo/WordCloudView/ HTTP/1.1" 200 96247
+[12/Mar/2021 10:28:59] "GET /demo/WordCloudView/ HTTP/1.1" 200 96163
+[12/Mar/2021 10:29:11] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 10:29:11] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 10:29:12] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 10:29:13] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 10:29:13] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:29:13] "GET /demo/WordCloudView/ HTTP/1.1" 200 96229
+[12/Mar/2021 10:29:42] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 10:29:43] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 10:29:45] "GET /wordCloud/ HTTP/1.1" 200 4433
+[12/Mar/2021 10:29:46] "GET /demo/WordCloudView/ HTTP/1.1" 200 96185
+[12/Mar/2021 10:29:47] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 10:29:48] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 10:29:53] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 10:29:54] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 10:29:55] "GET /salary/ HTTP/1.1" 200 3586
+[12/Mar/2021 10:29:56] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[12/Mar/2021 10:29:59] "GET /industryField/ HTTP/1.1" 200 4437
+[12/Mar/2021 10:29:59] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[12/Mar/2021 10:30:04] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 10:30:04] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 10:30:04] "GET /salary/ HTTP/1.1" 200 3586
+[12/Mar/2021 10:30:05] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[12/Mar/2021 10:30:47] "GET /wordCloud/ HTTP/1.1" 200 4550
+[12/Mar/2021 10:30:47] "GET /demo/WordCloudView/ HTTP/1.1" 200 96233
+[12/Mar/2021 10:31:51] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 10:31:52] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 10:31:52] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 10:32:02] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 10:32:02] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 10:32:03] "GET /companySize/ HTTP/1.1" 200 4434
+[12/Mar/2021 10:32:04] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[12/Mar/2021 10:32:04] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 10:32:04] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 10:32:04] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 10:32:05] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 10:32:06] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 10:32:07] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 10:33:57] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 10:34:03] "GET /wordCloud/ HTTP/1.1" 200 4550
+[12/Mar/2021 10:34:04] "GET /demo/WordCloudView/ HTTP/1.1" 200 96211
+[12/Mar/2021 10:39:16] "GET /industryField/ HTTP/1.1" 200 4437
+[12/Mar/2021 10:39:17] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[12/Mar/2021 11:12:57] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 11:16:43] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 11:16:44] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 11:18:05] "GET /companySize/ HTTP/1.1" 200 4434
+[12/Mar/2021 11:18:05] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[12/Mar/2021 11:30:22] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 11:30:22] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 11:40:29] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 11:40:31] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 11:40:31] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 11:43:41] "GET /wordCloud/ HTTP/1.1" 200 4550
+[12/Mar/2021 11:43:41] "GET /demo/WordCloudView/ HTTP/1.1" 200 96211
+[12/Mar/2021 11:49:12] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 11:49:13] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 11:49:35] "GET /wordCloud/ HTTP/1.1" 200 4550
+[12/Mar/2021 11:49:35] "GET /demo/WordCloudView/ HTTP/1.1" 200 96224
+[12/Mar/2021 12:00:23] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 12:00:23] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 12:08:51] "GET /? HTTP/1.1" 200 5111
+[12/Mar/2021 12:08:54] "GET /demo/PositionNameView HTTP/1.1" 301 0
+[12/Mar/2021 12:08:54] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 12:08:58] "GET /? HTTP/1.1" 200 5111
+[12/Mar/2021 12:08:59] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 12:11:03] "GET /wordCloud/ HTTP/1.1" 200 4550
+[12/Mar/2021 12:11:04] "GET /demo/WordCloudView/ HTTP/1.1" 200 96168
+[12/Mar/2021 12:23:29] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 12:23:29] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 12:23:38] "GET /salary/ HTTP/1.1" 200 3586
+[12/Mar/2021 12:23:39] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[12/Mar/2021 12:24:28] "GET /wordCloud/ HTTP/1.1" 200 4550
+[12/Mar/2021 12:24:29] "GET /demo/WordCloudView/ HTTP/1.1" 200 96163
+[12/Mar/2021 13:07:11] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 13:07:12] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 13:07:13] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 13:07:15] "GET /companySize/ HTTP/1.1" 200 4434
+[12/Mar/2021 13:07:15] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[12/Mar/2021 13:07:16] "GET /industryField/ HTTP/1.1" 200 4437
+[12/Mar/2021 13:07:17] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[12/Mar/2021 13:07:31] "GET /salary/ HTTP/1.1" 200 3586
+[12/Mar/2021 13:07:32] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[12/Mar/2021 13:07:36] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 13:07:37] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 13:07:42] "GET /wordCloud/ HTTP/1.1" 200 4550
+[12/Mar/2021 13:07:42] "GET /demo/WordCloudView/ HTTP/1.1" 200 96265
+[12/Mar/2021 13:07:48] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 13:07:49] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 13:07:50] "GET /wordCloud/ HTTP/1.1" 200 4550
+[12/Mar/2021 13:07:50] "GET /demo/WordCloudView/ HTTP/1.1" 200 96173
+[12/Mar/2021 13:07:59] "GET /wordCloud/ HTTP/1.0" 200 4550
+[12/Mar/2021 13:08:02] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 13:08:03] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 13:08:05] "GET /salary/ HTTP/1.1" 200 3586
+[12/Mar/2021 13:08:05] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[12/Mar/2021 13:08:50] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 13:08:50] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 13:15:18] "GET /demo/PositionNameView?start=10&end=20 HTTP/1.1" 301 0
+[12/Mar/2021 13:15:19] "GET /demo/PositionNameView/?start=10&end=20 HTTP/1.1" 200 2658
+[12/Mar/2021 13:15:39] "GET /demo/PositionNameView?start=1&end=20 HTTP/1.1" 301 0
+[12/Mar/2021 13:15:39] "GET /demo/PositionNameView/?start=1&end=20 HTTP/1.1" 200 3075
+[12/Mar/2021 13:16:04] "GET /demo/PositionNameView?start=100&end=20 HTTP/1.1" 301 0
+[12/Mar/2021 13:16:04] "GET /demo/PositionNameView/?start=100&end=20 HTTP/1.1" 200 2119
+[12/Mar/2021 13:16:08] "GET /demo/PositionNameView?start=100&end=30 HTTP/1.1" 301 0
+[12/Mar/2021 13:16:08] "GET /demo/PositionNameView/?start=100&end=30 HTTP/1.1" 200 2119
+[12/Mar/2021 13:16:11] "GET /demo/PositionNameView?start=100&end=300 HTTP/1.1" 301 0
+[12/Mar/2021 13:16:12] "GET /demo/PositionNameView/?start=100&end=300 HTTP/1.1" 200 13742
+[12/Mar/2021 13:16:20] "GET /salary/ HTTP/1.1" 200 3586
+[12/Mar/2021 13:16:21] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[12/Mar/2021 13:16:42] "GET /industryField/ HTTP/1.1" 200 4437
+[12/Mar/2021 13:16:43] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[12/Mar/2021 13:16:47] "GET /wordCloud/ HTTP/1.1" 200 4550
+[12/Mar/2021 13:16:47] "GET /demo/WordCloudView/ HTTP/1.1" 200 96175
+[12/Mar/2021 13:18:27] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 13:18:44] "GET /wordCloud HTTP/1.1" 301 0
+[12/Mar/2021 14:24:42] "GET /? HTTP/1.1" 200 5111
+[12/Mar/2021 14:24:42] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 14:24:47] "GET /? HTTP/1.1" 200 5111
+[12/Mar/2021 14:24:47] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 14:24:54] "GET /salary HTTP/1.1" 301 0
+[12/Mar/2021 14:24:54] "GET /salary/ HTTP/1.1" 200 3586
+[12/Mar/2021 14:24:54] "GET /demo/SalaryView HTTP/1.1" 301 0
+[12/Mar/2021 14:24:55] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[12/Mar/2021 14:25:00] "GET /wordCloud HTTP/1.1" 301 0
+[12/Mar/2021 14:25:01] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 14:25:02] "GET /demo/WordCloudView HTTP/1.1" 301 0
+[12/Mar/2021 14:25:02] "GET /demo/WordCloudView/ HTTP/1.1" 200 96188
+[12/Mar/2021 15:24:38] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 15:24:38] "GET /demo/WordCloudView/ HTTP/1.1" 200 96196
+[12/Mar/2021 15:24:39] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 15:24:39] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 15:24:40] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 15:24:41] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 15:24:41] "GET /district/ HTTP/1.1" 200 6667
+[12/Mar/2021 15:24:43] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 15:24:43] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 15:24:45] "GET /industryField/ HTTP/1.1" 200 4437
+[12/Mar/2021 15:24:46] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[12/Mar/2021 16:41:58] "GET /? HTTP/1.1" 200 5111
+[12/Mar/2021 16:41:59] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 16:42:11] "GET /demo/PositionNameView?start=3&end=5 HTTP/1.1" 301 0
+[12/Mar/2021 16:42:11] "GET /demo/PositionNameView/?start=3&end=5 HTTP/1.1" 200 2219
+/usr/local/python/jobas/app01/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2021 - 10:28:26
+Django version 3.1.7, using settings 'JobAs.settings'
+Starting development server at http://0.0.0.0:9898/
+Quit the server with CONTROL-C.
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+10
+20
+1
+20
+100
+20
+100
+30
+100
+300
+100
+150
+100
+150
+100
+150
+3
+5
+Watching for file changes with StatReloader
+/usr/local/python/jobas/app01/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2021 - 16:49:02
+Django version 3.1.7, using settings 'JobAs.settings'
+Starting development server at http://0.0.0.0:9898/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/usr/local/python/jobas/app01/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2021 - 16:53:59
+Django version 3.1.7, using settings 'JobAs.settings'
+Starting development server at http://0.0.0.0:9898/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[12/Mar/2021 16:55:35] "GET /? HTTP/1.1" 200 5111
+/usr/local/python/jobas/app01/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2021 - 16:55:08
+Django version 3.1.7, using settings 'JobAs.settings'
+Starting development server at http://0.0.0.0:9898/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+[12/Mar/2021 16:55:39] "GET /favicon.ico HTTP/1.1" 404 3993
+[12/Mar/2021 16:55:39] "GET /demo/PositionNameView HTTP/1.1" 301 0
+[12/Mar/2021 16:55:40] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 16:55:47] "GET /salary HTTP/1.1" 301 0
+[12/Mar/2021 16:55:47] "GET /salary/ HTTP/1.1" 200 3586
+Not Found: /favicon.ico
+[12/Mar/2021 16:55:47] "GET /favicon.ico HTTP/1.1" 404 3993
+[12/Mar/2021 16:55:47] "GET /demo/SalaryView HTTP/1.1" 301 0
+[12/Mar/2021 16:55:48] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[12/Mar/2021 16:55:49] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[12/Mar/2021 16:55:49] "GET /favicon.ico HTTP/1.1" 404 3993
+[12/Mar/2021 16:55:49] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 16:55:55] "GET /industryField HTTP/1.1" 301 0
+[12/Mar/2021 16:55:55] "GET /industryField/ HTTP/1.1" 200 4437
+Not Found: /favicon.ico
+[12/Mar/2021 16:55:55] "GET /favicon.ico HTTP/1.1" 404 3993
+[12/Mar/2021 16:55:55] "GET /demo/IndustryFieldView HTTP/1.1" 301 0
+[12/Mar/2021 16:55:56] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[12/Mar/2021 16:55:58] "GET /companySize HTTP/1.1" 301 0
+[12/Mar/2021 16:55:58] "GET /companySize/ HTTP/1.1" 200 4434
+Not Found: /favicon.ico
+[12/Mar/2021 16:55:59] "GET /favicon.ico HTTP/1.1" 404 3993
+[12/Mar/2021 16:55:59] "GET /demo/CompanySizeView HTTP/1.1" 301 0
+[12/Mar/2021 16:55:59] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[12/Mar/2021 16:56:00] "GET /workYear HTTP/1.1" 301 0
+[12/Mar/2021 16:56:00] "GET /workYear/ HTTP/1.1" 200 4429
+Not Found: /favicon.ico
+[12/Mar/2021 16:56:00] "GET /favicon.ico HTTP/1.1" 404 3993
+[12/Mar/2021 16:56:00] "GET /demo/WorkYearView HTTP/1.1" 301 0
+[12/Mar/2021 16:56:01] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 16:56:01] "GET /district HTTP/1.1" 301 0
+[12/Mar/2021 16:56:01] "GET /district/ HTTP/1.1" 200 6667
+Not Found: /favicon.ico
+[12/Mar/2021 16:56:01] "GET /favicon.ico HTTP/1.1" 404 3993
+/usr/local/python/jobas/app01/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2021 - 16:55:38
+Django version 3.1.7, using settings 'JobAs.settings'
+Starting development server at http://0.0.0.0:9898/
+Quit the server with CONTROL-C.
+100
+150
+100
+150
+Watching for file changes with StatReloader
+/usr/local/python/jobas/app01/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2021 - 16:56:41
+Django version 3.1.7, using settings 'JobAs.settings'
+Starting development server at http://0.0.0.0:9898/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/usr/local/python/jobas/JobAs/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2021 - 16:56:55
+Django version 3.1.7, using settings 'JobAs.settings'
+Starting development server at http://0.0.0.0:9898/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[12/Mar/2021 17:06:07] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 17:06:07] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 17:06:10] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:06:10] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:06:13] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 17:06:14] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:06:15] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 17:06:16] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 17:06:17] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:06:17] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:06:18] "GET /companySize/ HTTP/1.1" 200 4434
+[12/Mar/2021 17:06:18] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[12/Mar/2021 17:06:19] "GET /industryField/ HTTP/1.1" 200 4437
+[12/Mar/2021 17:06:20] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[12/Mar/2021 17:06:20] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 17:06:21] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:06:21] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 17:06:22] "GET /demo/WordCloudView/ HTTP/1.1" 200 96183
+[12/Mar/2021 17:06:22] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:06:23] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:06:25] "GET /education/ HTTP/1.1" 200 4432
+[12/Mar/2021 17:06:26] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:06:27] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:06:27] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:06:51] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:06:51] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:06:53] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:06:53] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:06:54] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:06:54] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:07:01] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:07:01] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:07:07] "GET /education/ HTTP/1.1" 200 4431
+[12/Mar/2021 17:07:07] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:07:08] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:07:08] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:07:11] "GET /education/ HTTP/1.1" 200 4431
+[12/Mar/2021 17:07:11] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:07:12] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 17:07:12] "GET /demo/WordCloudView/ HTTP/1.1" 200 96232
+[12/Mar/2021 17:07:13] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:07:13] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:07:14] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 17:07:14] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 17:07:15] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:07:15] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:08:10] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:08:11] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:08:12] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:08:13] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:08:13] "GET /education/ HTTP/1.1" 200 4428
+Internal Server Error: /demo/DistrictView/
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 175, in _feed_data
+    lng, lat = self.get_coordinate(n)
+TypeError: cannot unpack non-iterable NoneType object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python/jobas/app01/views.py", line 331, in get
+    return JsonResponse(json.loads(district_Geo()))
+  File "/usr/local/python/jobas/app01/views.py", line 269, in district_Geo
+    type_=ChartType.HEATMAP,
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 63, in add
+    data = self._feed_data(data_pair, type_)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 179, in _feed_data
+    raise NonexistentCoordinatesException(err, (n, v))
+pyecharts.exceptions.NonexistentCoordinatesException: 当前地点: ('合肥-包河区  ', 1254) 坐标不存在, 错误原因: cannot unpack non-iterable NoneType object
+[12/Mar/2021 17:08:14] "GET /demo/DistrictView/ HTTP/1.1" 500 113071
+[12/Mar/2021 17:08:14] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:08:15] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:08:16] "GET /companySize/ HTTP/1.1" 200 4434
+[12/Mar/2021 17:08:16] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[12/Mar/2021 17:08:17] "GET /industryField/ HTTP/1.1" 200 4437
+[12/Mar/2021 17:08:18] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[12/Mar/2021 17:08:18] "GET /companySize/ HTTP/1.1" 200 4434
+[12/Mar/2021 17:08:19] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[12/Mar/2021 17:08:19] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 17:08:20] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 17:09:09] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:09:10] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+/usr/local/python/jobas/app01/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2021 - 16:58:24
+Django version 3.1.7, using settings 'JobAs.settings'
+Starting development server at http://0.0.0.0:9898/
+Quit the server with CONTROL-C.
+100
+150
+Watching for file changes with StatReloader
+[12/Mar/2021 17:10:36] "GET /education/ HTTP/1.1" 200 4428
+Internal Server Error: /demo/DistrictView/
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 175, in _feed_data
+    lng, lat = self.get_coordinate(n)
+TypeError: cannot unpack non-iterable NoneType object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python/jobas/app01/views.py", line 330, in get
+    return JsonResponse(json.loads(district_Geo()))
+  File "/usr/local/python/jobas/app01/views.py", line 269, in district_Geo
+    type_=ChartType.HEATMAP,
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 63, in add
+    data = self._feed_data(data_pair, type_)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 179, in _feed_data
+    raise NonexistentCoordinatesException(err, (n, v))
+pyecharts.exceptions.NonexistentCoordinatesException: 当前地点: ('合肥-包河区  ', 1254) 坐标不存在, 错误原因: cannot unpack non-iterable NoneType object
+[12/Mar/2021 17:10:36] "GET /demo/DistrictView/ HTTP/1.1" 500 113071
+[12/Mar/2021 17:10:39] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 17:10:39] "GET /demo/WordCloudView/ HTTP/1.1" 200 96222
+[12/Mar/2021 17:10:40] "GET /education/ HTTP/1.1" 200 4428
+Internal Server Error: /demo/DistrictView/
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 175, in _feed_data
+    lng, lat = self.get_coordinate(n)
+TypeError: cannot unpack non-iterable NoneType object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python/jobas/app01/views.py", line 330, in get
+    return JsonResponse(json.loads(district_Geo()))
+  File "/usr/local/python/jobas/app01/views.py", line 269, in district_Geo
+    type_=ChartType.HEATMAP,
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 63, in add
+    data = self._feed_data(data_pair, type_)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 179, in _feed_data
+    raise NonexistentCoordinatesException(err, (n, v))
+pyecharts.exceptions.NonexistentCoordinatesException: 当前地点: ('合肥-包河区  ', 1254) 坐标不存在, 错误原因: cannot unpack non-iterable NoneType object
+[12/Mar/2021 17:10:41] "GET /demo/DistrictView/ HTTP/1.1" 500 113071
+[12/Mar/2021 17:11:36] "GET /education/ HTTP/1.1" 200 4430
+[12/Mar/2021 17:11:37] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:11:38] "GET /education/ HTTP/1.1" 200 4430
+[12/Mar/2021 17:11:38] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:11:39] "GET /district/ HTTP/1.1" 200 3580
+[12/Mar/2021 17:11:40] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:11:57] "GET /district/ HTTP/1.1" 200 3579
+Internal Server Error: /demo/DistrictView/
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 175, in _feed_data
+    lng, lat = self.get_coordinate(n)
+TypeError: cannot unpack non-iterable NoneType object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python/jobas/app01/views.py", line 330, in get
+    return JsonResponse(json.loads(district_Geo()))
+  File "/usr/local/python/jobas/app01/views.py", line 269, in district_Geo
+    type_=ChartType.HEATMAP,
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 63, in add
+    data = self._feed_data(data_pair, type_)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 179, in _feed_data
+    raise NonexistentCoordinatesException(err, (n, v))
+pyecharts.exceptions.NonexistentCoordinatesException: 当前地点: ('合肥-包河区  ', 1254) 坐标不存在, 错误原因: cannot unpack non-iterable NoneType object
+[12/Mar/2021 17:11:57] "GET /demo/DistrictView/ HTTP/1.1" 500 113070
+/usr/local/python/jobas/app01/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2021 - 17:10:17
+Django version 3.1.7, using settings 'JobAs.settings'
+Starting development server at http://0.0.0.0:9898/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[12/Mar/2021 17:26:31] "GET /district/ HTTP/1.1" 200 3579
+Internal Server Error: /demo/DistrictView/
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 175, in _feed_data
+    lng, lat = self.get_coordinate(n)
+TypeError: cannot unpack non-iterable NoneType object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python/jobas/app01/views.py", line 330, in get
+    return JsonResponse(json.loads(district_Geo()))
+  File "/usr/local/python/jobas/app01/views.py", line 269, in district_Geo
+    type_=ChartType.HEATMAP,
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 63, in add
+    data = self._feed_data(data_pair, type_)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/pyecharts/charts/basic_charts/geo.py", line 179, in _feed_data
+    raise NonexistentCoordinatesException(err, (n, v))
+pyecharts.exceptions.NonexistentCoordinatesException: 当前地点: ('合肥-包河区  ', 1254) 坐标不存在, 错误原因: cannot unpack non-iterable NoneType object
+[12/Mar/2021 17:26:32] "GET /demo/DistrictView/ HTTP/1.1" 500 113070
+/usr/local/python/jobas/app01/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2021 - 17:13:56
+Django version 3.1.7, using settings 'JobAs.settings'
+Starting development server at http://0.0.0.0:9898/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[12/Mar/2021 17:26:57] "GET /district/ HTTP/1.1" 200 3579
+[12/Mar/2021 17:26:58] "GET /district/ HTTP/1.1" 200 3579
+[12/Mar/2021 17:26:58] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 17:26:59] "GET /district/ HTTP/1.1" 200 3579
+[12/Mar/2021 17:26:59] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 17:27:00] "GET /education/ HTTP/1.1" 200 4430
+[12/Mar/2021 17:27:00] "GET /district/ HTTP/1.1" 200 3579
+[12/Mar/2021 17:27:01] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:27:01] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 17:27:01] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 17:27:02] "GET /district/ HTTP/1.1" 200 3579
+[12/Mar/2021 17:27:02] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 17:27:03] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 17:27:03] "GET /education/ HTTP/1.1" 200 4430
+[12/Mar/2021 17:27:04] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:27:04] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 17:27:05] "GET /district/ HTTP/1.1" 200 3579
+[12/Mar/2021 17:27:06] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 17:27:13] "GET /district/ HTTP/1.1" 200 3579
+[12/Mar/2021 17:27:15] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 17:27:48] "GET /district/ HTTP/1.1" 200 3688
+[12/Mar/2021 17:27:49] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 17:27:58] "GET /education/ HTTP/1.1" 200 4430
+[12/Mar/2021 17:27:59] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 17:27:59] "GET /district/ HTTP/1.1" 200 3688
+[12/Mar/2021 17:28:00] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 17:31:02] "GET /district/ HTTP/1.1" 200 3688
+[12/Mar/2021 17:31:04] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 19:06:49] "GET /district/ HTTP/1.1" 200 3688
+[12/Mar/2021 19:06:49] "GET /education/ HTTP/1.1" 200 4430
+[12/Mar/2021 19:06:50] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 19:06:51] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 19:06:52] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 19:06:52] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 19:06:52] "GET /demo/WordCloudView/ HTTP/1.1" 200 96212
+[12/Mar/2021 19:06:57] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 19:06:57] "GET /demo/WordCloudView/ HTTP/1.1" 200 96192
+[12/Mar/2021 19:06:58] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 19:06:59] "GET /demo/WordCloudView/ HTTP/1.1" 200 96248
+[12/Mar/2021 19:07:00] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 19:07:00] "GET /demo/WordCloudView/ HTTP/1.1" 200 96281
+[12/Mar/2021 19:07:01] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 19:07:01] "GET /demo/WordCloudView/ HTTP/1.1" 200 96205
+[12/Mar/2021 19:07:02] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 19:07:02] "GET /demo/WordCloudView/ HTTP/1.1" 200 96222
+[12/Mar/2021 19:07:03] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 19:07:03] "GET /demo/WordCloudView/ HTTP/1.1" 200 96243
+[12/Mar/2021 19:07:04] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 19:07:04] "GET /demo/WordCloudView/ HTTP/1.1" 200 96198
+[12/Mar/2021 19:07:05] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 19:07:05] "GET /demo/WordCloudView/ HTTP/1.1" 200 96219
+[12/Mar/2021 19:07:06] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 19:07:06] "GET /demo/WordCloudView/ HTTP/1.1" 200 96177
+[12/Mar/2021 19:07:07] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 19:07:07] "GET /demo/WordCloudView/ HTTP/1.1" 200 96167
+[12/Mar/2021 19:07:35] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 19:07:35] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 19:07:37] "GET /salary/ HTTP/1.1" 200 3586
+[12/Mar/2021 19:07:38] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[12/Mar/2021 19:07:39] "GET /industryField/ HTTP/1.1" 200 4437
+[12/Mar/2021 19:07:40] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[12/Mar/2021 19:07:41] "GET /companySize/ HTTP/1.1" 200 4434
+[12/Mar/2021 19:07:41] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[12/Mar/2021 19:07:42] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 19:07:43] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 19:07:43] "GET /district/ HTTP/1.1" 200 3688
+[12/Mar/2021 19:07:44] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 19:07:46] "GET /education/ HTTP/1.1" 200 4430
+[12/Mar/2021 19:07:46] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 19:07:48] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 19:07:48] "GET /demo/WordCloudView/ HTTP/1.1" 200 96230
+[12/Mar/2021 19:08:05] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 19:08:06] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 19:08:06] "GET /salary/ HTTP/1.1" 200 3586
+[12/Mar/2021 19:08:07] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[12/Mar/2021 19:08:07] "GET /industryField/ HTTP/1.1" 200 4437
+[12/Mar/2021 19:08:08] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[12/Mar/2021 19:08:08] "GET /companySize/ HTTP/1.1" 200 4434
+[12/Mar/2021 19:08:09] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[12/Mar/2021 19:08:10] "GET /district/ HTTP/1.1" 200 3688
+[12/Mar/2021 19:08:11] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 19:08:12] "GET /education/ HTTP/1.1" 200 4430
+[12/Mar/2021 19:08:12] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 19:08:13] "GET /wordCloud/ HTTP/1.1" 200 4659
+[12/Mar/2021 19:08:13] "GET /demo/WordCloudView/ HTTP/1.1" 200 96202
+[12/Mar/2021 19:08:22] "GET /district/ HTTP/1.1" 200 3688
+[12/Mar/2021 19:08:24] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 19:09:32] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 19:09:32] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 19:12:31] "GET /district/ HTTP/1.1" 200 3688
+[12/Mar/2021 19:12:33] "GET /district/ HTTP/1.1" 200 3688
+[12/Mar/2021 19:12:35] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 19:13:50] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 19:13:50] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 19:14:04] "GET /salary/ HTTP/1.1" 200 3586
+[12/Mar/2021 19:14:05] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[12/Mar/2021 19:14:06] "GET /industryField/ HTTP/1.1" 200 4437
+[12/Mar/2021 19:14:07] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[12/Mar/2021 19:14:08] "GET /companySize/ HTTP/1.1" 200 4434
+[12/Mar/2021 19:14:09] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[12/Mar/2021 19:14:13] "GET /workYear/ HTTP/1.1" 200 4429
+[12/Mar/2021 19:14:13] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[12/Mar/2021 19:14:15] "GET /district/ HTTP/1.1" 200 3688
+[12/Mar/2021 19:14:16] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[12/Mar/2021 19:14:21] "GET /education/ HTTP/1.1" 200 4430
+[12/Mar/2021 19:14:22] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 19:14:58] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 19:14:59] "GET /demo/PositionNameView HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[12/Mar/2021 19:14:59] "GET /favicon.ico HTTP/1.1" 404 4123
+[12/Mar/2021 19:15:00] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 19:17:28] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[12/Mar/2021 19:17:28] "GET /favicon.ico HTTP/1.1" 404 4123
+[12/Mar/2021 19:17:28] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[12/Mar/2021 19:17:41] "GET /education HTTP/1.1" 301 0
+[12/Mar/2021 19:17:41] "GET /education/ HTTP/1.1" 200 4430
+[12/Mar/2021 19:17:42] "GET /demo/EducationView HTTP/1.1" 301 0
+[12/Mar/2021 19:17:42] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[12/Mar/2021 19:18:00] "GET /salary HTTP/1.1" 301 0
+[12/Mar/2021 19:18:00] "GET /salary/ HTTP/1.1" 200 3586
+[12/Mar/2021 19:18:00] "GET /demo/SalaryView HTTP/1.1" 301 0
+[12/Mar/2021 19:18:01] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[12/Mar/2021 19:20:29] "GET / HTTP/1.1" 200 5111
+[12/Mar/2021 19:23:59] "GET /education HTTP/1.1" 301 0
+[13/Mar/2021 09:10:54] code 400, message Bad request syntax ('~\x00\x02\x00\x00\x01\x88\x88\x88\x88\x88\x03¥-~')
+[13/Mar/2021 09:10:54] "~   ¥-~" 400 -
+[13/Mar/2021 13:26:02] "GET /wordCloud/ HTTP/1.1" 200 4659
+[13/Mar/2021 13:26:04] "GET /demo/WordCloudView HTTP/1.1" 301 0
+[13/Mar/2021 13:26:04] "GET /demo/WordCloudView/ HTTP/1.1" 200 96306
+[13/Mar/2021 13:26:05] "GET /wordCloud/ HTTP/1.1" 200 4659
+Not Found: /favicon.ico
+[13/Mar/2021 13:26:07] "GET /favicon.ico HTTP/1.1" 404 4123
+[13/Mar/2021 13:26:07] "GET /demo/WordCloudView HTTP/1.1" 301 0
+[13/Mar/2021 13:26:07] "GET /demo/WordCloudView/ HTTP/1.1" 200 96207
+[13/Mar/2021 13:26:17] "GET /industryField HTTP/1.1" 301 0
+[13/Mar/2021 13:26:17] "GET /industryField/ HTTP/1.1" 200 4437
+[13/Mar/2021 13:26:17] "GET /demo/IndustryFieldView HTTP/1.1" 301 0
+[13/Mar/2021 13:26:17] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[13/Mar/2021 13:26:18] "GET /industryField/ HTTP/1.1" 200 4437
+[13/Mar/2021 13:26:19] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[13/Mar/2021 13:26:27] "GET /workYear HTTP/1.1" 301 0
+[13/Mar/2021 13:26:27] "GET /workYear/ HTTP/1.1" 200 4429
+[13/Mar/2021 13:26:27] "GET /demo/WorkYearView HTTP/1.1" 301 0
+[13/Mar/2021 13:26:28] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[13/Mar/2021 13:26:30] "GET /industryField/ HTTP/1.1" 200 4437
+[13/Mar/2021 13:26:30] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[13/Mar/2021 13:27:04] "GET /wordCloud HTTP/1.1" 301 0
+[13/Mar/2021 13:27:06] "GET /industryField/ HTTP/1.1" 200 4437
+[13/Mar/2021 13:27:06] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[13/Mar/2021 13:27:08] "GET /industryField/ HTTP/1.1" 200 4437
+[13/Mar/2021 13:27:08] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[13/Mar/2021 13:27:17] "GET /industryField HTTP/1.1" 301 0
+[13/Mar/2021 13:27:20] "GET / HTTP/1.1" 200 5111
+[13/Mar/2021 13:27:21] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[13/Mar/2021 13:27:25] "GET /wordCloud/ HTTP/1.1" 200 4659
+Not Found: /favicon.ico
+[13/Mar/2021 13:27:25] "GET /favicon.ico HTTP/1.1" 404 4123
+[13/Mar/2021 13:27:25] "GET /demo/WordCloudView/ HTTP/1.1" 200 96138
+[13/Mar/2021 14:21:22] "GET /? HTTP/1.1" 200 5111
+[13/Mar/2021 14:21:23] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[13/Mar/2021 14:21:30] "GET /salary/ HTTP/1.1" 200 3586
+[13/Mar/2021 14:21:31] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[13/Mar/2021 14:21:31] "GET /companySize HTTP/1.1" 301 0
+[13/Mar/2021 14:21:32] "GET /companySize/ HTTP/1.1" 200 4434
+[13/Mar/2021 14:21:32] "GET /demo/CompanySizeView HTTP/1.1" 301 0
+[13/Mar/2021 14:21:32] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[13/Mar/2021 14:21:32] "GET /salary/ HTTP/1.1" 200 3586
+[13/Mar/2021 14:21:33] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[13/Mar/2021 14:21:44] "GET /industryField HTTP/1.1" 301 0
+[13/Mar/2021 14:21:45] "GET /industryField/ HTTP/1.1" 200 4437
+[13/Mar/2021 14:21:45] "GET /demo/IndustryFieldView HTTP/1.1" 301 0
+[13/Mar/2021 14:21:45] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[13/Mar/2021 14:21:57] "GET /companySize/ HTTP/1.1" 200 4434
+[13/Mar/2021 14:21:57] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[13/Mar/2021 14:22:32] "GET /companySize HTTP/1.1" 301 0
+[13/Mar/2021 18:46:35] "GET /? HTTP/1.1" 200 5111
+[13/Mar/2021 18:46:36] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[13/Mar/2021 18:46:43] "GET /district/ HTTP/1.1" 200 3688
+[13/Mar/2021 18:46:44] "GET /demo/DistrictView HTTP/1.1" 301 0
+[13/Mar/2021 18:46:46] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[13/Mar/2021 18:49:17] "GET /education/ HTTP/1.1" 200 4430
+[13/Mar/2021 18:49:18] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[13/Mar/2021 18:49:19] "GET /district/ HTTP/1.1" 200 3688
+[13/Mar/2021 18:49:20] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[14/Mar/2021 05:34:07] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[14/Mar/2021 05:34:07] "  /*à     Cookie: mstshash=Administr" 400 -
+[14/Mar/2021 09:24:12] code 400, message Bad request version ("Êå\x9c<\x08|FË®\x8eVhç¸;ØÊ[ûY\x1b1£gxµ\x883þ\x0f¿³\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[14/Mar/2021 09:24:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[14/Mar/2021 09:24:28] code 400, message Bad HTTP/0.9 request type ('\x80\x00\x00(H\x05®\x93\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86')
+[14/Mar/2021 09:24:28] "  (H®                                " 400 -
+----------------------------------------
+Exception happened during processing of request from ('167.248.133.38', 42376)
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[14/Mar/2021 10:21:20] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x13^RÓÌ'\x84«·\x10\x94ôv*×Í(m'õÞ(Y;Æ?Î\x96Bï|v\x00\x00\x1aÀ/À+À\x11À\x07À\x13À")
+[14/Mar/2021 10:21:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[14/Mar/2021 10:21:21] "GET / HTTP/1.1" 200 5111
+----------------------------------------
+Exception happened during processing of request from ('167.248.133.38', 50670)
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[14/Mar/2021 10:21:22] "GET / HTTP/1.1" 200 5111
+[14/Mar/2021 13:05:55] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[14/Mar/2021 13:05:55] "  /*à     Cookie: mstshash=Administr" 400 -
+[14/Mar/2021 13:26:03] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[14/Mar/2021 13:26:03] "  /*à     Cookie: mstshash=Administr" 400 -
+[14/Mar/2021 13:29:30] code 400, message Bad request version ("\x8bßt\x14Öc)YÎçµNuÇµÊ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+[14/Mar/2021 13:29:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[14/Mar/2021 13:29:30] "GET / HTTP/1.1" 200 5111
+[14/Mar/2021 13:46:59] "GET / HTTP/1.1" 200 5111
+[14/Mar/2021 13:47:00] "GET / HTTP/1.1" 200 5111
+[14/Mar/2021 13:47:02] "GET / HTTP/1.1" 200 5111
+[14/Mar/2021 13:47:07] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[14/Mar/2021 13:47:09] "GET /salary/ HTTP/1.1" 200 3586
+[14/Mar/2021 13:47:10] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[14/Mar/2021 13:47:11] "GET /industryField/ HTTP/1.1" 200 4437
+[14/Mar/2021 13:47:11] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[14/Mar/2021 13:47:13] "GET /companySize/ HTTP/1.1" 200 4434
+[14/Mar/2021 13:47:13] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[14/Mar/2021 13:47:14] "GET /workYear/ HTTP/1.1" 200 4429
+[14/Mar/2021 13:47:15] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[14/Mar/2021 13:47:16] "GET /district/ HTTP/1.1" 200 3688
+[14/Mar/2021 13:47:18] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[14/Mar/2021 13:47:20] "GET /education/ HTTP/1.1" 200 4430
+[14/Mar/2021 13:47:20] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[14/Mar/2021 13:47:21] "GET /wordCloud/ HTTP/1.1" 200 4659
+[14/Mar/2021 13:47:21] "GET /demo/WordCloudView/ HTTP/1.1" 200 96207
+[14/Mar/2021 13:47:25] "GET /education/ HTTP/1.1" 200 4430
+[14/Mar/2021 13:47:26] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[14/Mar/2021 13:47:49] "GET /district/ HTTP/1.1" 200 3688
+[14/Mar/2021 13:47:50] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[15/Mar/2021 00:00:14] "GET / HTTP/1.1" 200 5111
+[15/Mar/2021 00:00:15] "GET /demo/PositionNameView HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[15/Mar/2021 00:00:15] "GET /favicon.ico HTTP/1.1" 404 4123
+[15/Mar/2021 00:00:16] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[15/Mar/2021 00:09:37] "GET / HTTP/1.0" 200 5111
+[15/Mar/2021 00:10:37] "GET / HTTP/1.1" 200 5111
+[15/Mar/2021 00:15:25] "GET / HTTP/1.1" 200 5111
+[15/Mar/2021 00:15:30] "GET /demo/PositionNameView HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[15/Mar/2021 00:15:30] "GET /favicon.ico HTTP/1.1" 404 4123
+[15/Mar/2021 00:15:31] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[15/Mar/2021 00:15:38] "GET /salary HTTP/1.1" 301 0
+[15/Mar/2021 00:15:38] "GET /salary/ HTTP/1.1" 200 3586
+[15/Mar/2021 00:15:39] "GET /demo/SalaryView HTTP/1.1" 301 0
+[15/Mar/2021 00:15:39] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[15/Mar/2021 00:15:40] "GET /salary/ HTTP/1.1" 200 3586
+[15/Mar/2021 00:15:41] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[15/Mar/2021 00:15:44] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[15/Mar/2021 00:15:55] "GET / HTTP/1.1" 200 5111
+[15/Mar/2021 00:15:57] "GET /demo/PositionNameView HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[15/Mar/2021 00:15:57] "GET /favicon.ico HTTP/1.1" 404 4123
+[15/Mar/2021 00:15:57] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[15/Mar/2021 00:16:07] "GET /salary HTTP/1.1" 301 0
+[15/Mar/2021 00:16:08] "GET /salary/ HTTP/1.1" 200 3586
+[15/Mar/2021 00:16:09] "GET /demo/SalaryView HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[15/Mar/2021 00:16:09] "GET /favicon.ico HTTP/1.1" 404 4123
+[15/Mar/2021 00:16:09] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[15/Mar/2021 00:16:20] "GET /companySize HTTP/1.1" 301 0
+[15/Mar/2021 00:16:20] "GET /companySize/ HTTP/1.1" 200 4434
+[15/Mar/2021 00:16:21] "GET /demo/CompanySizeView HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[15/Mar/2021 00:16:21] "GET /favicon.ico HTTP/1.1" 404 4123
+[15/Mar/2021 00:16:21] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[15/Mar/2021 00:16:23] "GET / HTTP/1.1" 200 5111
+[15/Mar/2021 00:16:25] "GET /district HTTP/1.1" 301 0
+[15/Mar/2021 00:16:25] "GET /district/ HTTP/1.1" 200 3688
+Not Found: /favicon.ico
+[15/Mar/2021 00:16:26] "GET /favicon.ico HTTP/1.1" 404 4123
+[15/Mar/2021 00:16:26] "GET /demo/DistrictView HTTP/1.1" 301 0
+[15/Mar/2021 00:16:27] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[15/Mar/2021 00:16:28] "GET /education HTTP/1.1" 301 0
+[15/Mar/2021 00:16:28] "GET /education/ HTTP/1.1" 200 4430
+Not Found: /favicon.ico
+[15/Mar/2021 00:16:29] "GET /favicon.ico HTTP/1.1" 404 4123
+[15/Mar/2021 00:16:29] "GET /demo/EducationView HTTP/1.1" 301 0
+[15/Mar/2021 00:16:29] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[15/Mar/2021 00:16:32] "GET /wordCloud HTTP/1.1" 301 0
+[15/Mar/2021 00:16:33] "GET /wordCloud/ HTTP/1.1" 200 4659
+Not Found: /favicon.ico
+[15/Mar/2021 00:16:33] "GET /favicon.ico HTTP/1.1" 404 4123
+[15/Mar/2021 00:16:33] "GET /demo/WordCloudView HTTP/1.1" 301 0
+[15/Mar/2021 00:16:34] "GET /demo/WordCloudView/ HTTP/1.1" 200 96200
+[15/Mar/2021 00:16:39] "GET /salary HTTP/1.1" 301 0
+[15/Mar/2021 00:16:42] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[15/Mar/2021 00:16:42] "GET /favicon.ico HTTP/1.1" 404 4123
+[15/Mar/2021 00:16:43] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[15/Mar/2021 00:58:50] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Mar/2021 00:58:50] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Mar/2021 01:41:47] "GET / HTTP/1.1" 200 5111
+[15/Mar/2021 08:32:21] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Mar/2021 08:32:21] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Mar/2021 09:11:35] "GET / HTTP/1.1" 200 5111
+[15/Mar/2021 09:11:40] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[15/Mar/2021 11:04:51] code 400, message Bad request syntax ('\x16\x03\x03\x00\x88\x01\x00\x00\x84\x03\x03`NÎÓ\x92\\×]ËmuÙDCIÁ\x87²è\x83\x9ai\x8d¥\x15j1W\x12ódp\x00\x00\x16À\x14\x005À\x13\x00/À,À+À0\x00\x9dÀ/\x00\x9c\x00')
+[15/Mar/2021 11:04:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[15/Mar/2021 11:27:11] "GET / HTTP/1.1" 200 5111
+[15/Mar/2021 11:27:12] "GET /demo/PositionNameView HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[15/Mar/2021 11:27:12] "GET /favicon.ico HTTP/1.1" 404 4123
+[15/Mar/2021 11:27:12] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[15/Mar/2021 11:27:30] "GET /salary HTTP/1.1" 301 0
+[15/Mar/2021 11:27:31] "GET /salary/ HTTP/1.1" 200 3586
+[15/Mar/2021 11:27:31] "GET /demo/SalaryView HTTP/1.1" 301 0
+[15/Mar/2021 11:27:31] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[15/Mar/2021 11:28:06] "GET /industryField HTTP/1.1" 301 0
+[15/Mar/2021 11:28:06] "GET /industryField/ HTTP/1.1" 200 4437
+[15/Mar/2021 11:28:06] "GET /demo/IndustryFieldView HTTP/1.1" 301 0
+[15/Mar/2021 11:28:07] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[15/Mar/2021 11:29:06] "GET /companySize HTTP/1.1" 301 0
+[15/Mar/2021 11:29:06] "GET /companySize/ HTTP/1.1" 200 4434
+[15/Mar/2021 11:29:07] "GET /demo/CompanySizeView HTTP/1.1" 301 0
+[15/Mar/2021 11:29:07] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[15/Mar/2021 11:29:09] "GET /workYear HTTP/1.1" 301 0
+[15/Mar/2021 11:29:09] "GET /workYear/ HTTP/1.1" 200 4429
+[15/Mar/2021 11:29:09] "GET /demo/WorkYearView HTTP/1.1" 301 0
+[15/Mar/2021 11:29:09] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[15/Mar/2021 11:29:11] "GET /district HTTP/1.1" 301 0
+[15/Mar/2021 11:29:12] "GET /district/ HTTP/1.1" 200 3688
+[15/Mar/2021 11:29:12] "GET /demo/DistrictView HTTP/1.1" 301 0
+[15/Mar/2021 11:29:13] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[15/Mar/2021 11:29:13] "GET /education HTTP/1.1" 301 0
+[15/Mar/2021 11:29:13] "GET /education/ HTTP/1.1" 200 4430
+[15/Mar/2021 11:29:14] "GET /demo/EducationView HTTP/1.1" 301 0
+[15/Mar/2021 11:29:14] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[15/Mar/2021 11:29:16] "GET /district/ HTTP/1.1" 200 3688
+[15/Mar/2021 11:29:17] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[15/Mar/2021 11:29:17] "GET /wordCloud HTTP/1.1" 301 0
+[15/Mar/2021 11:29:17] "GET /wordCloud/ HTTP/1.1" 200 4659
+[15/Mar/2021 11:29:17] "GET /demo/WordCloudView HTTP/1.1" 301 0
+[15/Mar/2021 11:29:17] "GET /demo/WordCloudView/ HTTP/1.1" 200 96181
+[15/Mar/2021 11:29:23] "GET /companySize/ HTTP/1.1" 200 4434
+[15/Mar/2021 11:29:24] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[15/Mar/2021 11:29:25] "GET /industryField/ HTTP/1.1" 200 4437
+[15/Mar/2021 11:29:25] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[15/Mar/2021 11:29:26] "GET /salary/ HTTP/1.1" 200 3586
+[15/Mar/2021 11:29:27] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[15/Mar/2021 11:29:28] "GET / HTTP/1.1" 200 5111
+[15/Mar/2021 11:29:29] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[15/Mar/2021 11:29:34] "GET /demo/PositionNameView?start=8&end= HTTP/1.1" 301 0
+Internal Server Error: /demo/PositionNameView/
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python/jobas/app01/views.py", line 305, in get
+    return JsonResponse(json.loads(bar_position(int(start),int(end))))
+ValueError: invalid literal for int() with base 10: ''
+[15/Mar/2021 11:29:34] "GET /demo/PositionNameView/?start=8&end= HTTP/1.1" 500 86820
+Internal Server Error: /demo/PositionNameView/
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python/jobas/app01/views.py", line 305, in get
+    return JsonResponse(json.loads(bar_position(int(start),int(end))))
+ValueError: invalid literal for int() with base 10: ''
+[15/Mar/2021 11:29:35] "GET /demo/PositionNameView/?start=8&end= HTTP/1.1" 500 86820
+Internal Server Error: /demo/PositionNameView/
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python/jobas/app01/views.py", line 305, in get
+    return JsonResponse(json.loads(bar_position(int(start),int(end))))
+ValueError: invalid literal for int() with base 10: ''
+[15/Mar/2021 11:29:36] "GET /demo/PositionNameView/?start=8&end= HTTP/1.1" 500 86820
+Internal Server Error: /demo/PositionNameView/
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python/jobas/app01/views.py", line 305, in get
+    return JsonResponse(json.loads(bar_position(int(start),int(end))))
+ValueError: invalid literal for int() with base 10: ''
+[15/Mar/2021 11:29:36] "GET /demo/PositionNameView/?start=8&end= HTTP/1.1" 500 86820
+Internal Server Error: /demo/PositionNameView/
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/python/jobas/app01/views.py", line 305, in get
+    return JsonResponse(json.loads(bar_position(int(start),int(end))))
+ValueError: invalid literal for int() with base 10: ''
+[15/Mar/2021 11:29:36] "GET /demo/PositionNameView/?start=8&end= HTTP/1.1" 500 86820
+[15/Mar/2021 11:29:40] "GET /demo/PositionNameView?start=8&end=-2 HTTP/1.1" 301 0
+[15/Mar/2021 11:29:43] "GET /demo/PositionNameView?start=8&end=4 HTTP/1.1" 301 0
+[15/Mar/2021 11:29:44] "GET /demo/PositionNameView/?start=8&end=4 HTTP/1.1" 200 2119
+[15/Mar/2021 11:29:44] "GET /demo/PositionNameView/?start=8&end=4 HTTP/1.1" 200 2119
+[15/Mar/2021 11:29:44] "GET /demo/PositionNameView/?start=8&end=4 HTTP/1.1" 200 2119
+[15/Mar/2021 11:29:55] "GET /demo/PositionNameView/?start=8&end=-2 HTTP/1.1" 200 777483
+[15/Mar/2021 11:30:02] "GET /demo/PositionNameView/?start=8&end=-2 HTTP/1.1" 200 777483
+[15/Mar/2021 11:30:04] "GET /demo/PositionNameView/?start=8&end=-2 HTTP/1.1" 200 777483
+[15/Mar/2021 11:30:04] "GET /demo/PositionNameView/?start=8&end=-2 HTTP/1.1" 200 777483
+[15/Mar/2021 11:30:07] "GET /demo/PositionNameView/?start=8&end=-2 HTTP/1.1" 200 777483
+[15/Mar/2021 11:31:48] "GET /demo/PositionNameView?start=8&end=12 HTTP/1.1" 301 0
+[15/Mar/2021 11:31:49] "GET /demo/PositionNameView/?start=8&end=12 HTTP/1.1" 200 2326
+[15/Mar/2021 11:41:42] "GET /industryField/ HTTP/1.1" 200 4437
+[15/Mar/2021 11:41:42] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[15/Mar/2021 11:41:42] "GET /salary/ HTTP/1.1" 200 3586
+[15/Mar/2021 11:41:43] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[15/Mar/2021 12:20:56] "GET / HTTP/1.0" 200 5111
+[15/Mar/2021 16:05:56] "GET / HTTP/1.1" 200 5111
+[15/Mar/2021 16:05:56] "GET /demo/PositionNameView HTTP/1.1" 301 0
+[15/Mar/2021 16:05:57] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[15/Mar/2021 20:53:55] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[15/Mar/2021 20:53:55] "GET /favicon.ico HTTP/1.1" 404 4123
+[15/Mar/2021 20:53:56] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[15/Mar/2021 20:54:06] "GET /salary/ HTTP/1.1" 200 3586
+[15/Mar/2021 20:54:07] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[15/Mar/2021 20:54:11] "GET /industryField/ HTTP/1.1" 200 4437
+[15/Mar/2021 20:54:12] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[15/Mar/2021 20:54:31] "GET /companySize/ HTTP/1.1" 200 4434
+[15/Mar/2021 20:54:32] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[15/Mar/2021 20:54:33] "GET /workYear/ HTTP/1.1" 200 4429
+[15/Mar/2021 20:54:33] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[15/Mar/2021 20:54:34] "GET /district/ HTTP/1.1" 200 3688
+[15/Mar/2021 20:54:35] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[15/Mar/2021 20:54:45] "GET /education/ HTTP/1.1" 200 4430
+[15/Mar/2021 20:54:46] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[15/Mar/2021 20:54:48] "GET /wordCloud/ HTTP/1.1" 200 4659
+[15/Mar/2021 20:54:48] "GET /demo/WordCloudView/ HTTP/1.1" 200 96186
+[16/Mar/2021 02:29:00] "GET / HTTP/1.1" 200 5111
+Not Found: /explicit_not_exist_path
+[16/Mar/2021 02:29:00] "GET /explicit_not_exist_path HTTP/1.1" 404 4159
+[16/Mar/2021 02:29:00] "GET /admin/ HTTP/1.1" 302 0
+[16/Mar/2021 02:29:00] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2196
+Not Found: /robots.txt
+[16/Mar/2021 02:29:00] "GET /robots.txt HTTP/1.1" 404 4120
+Not Found: /favicon.ico
+[16/Mar/2021 02:29:00] "GET /favicon.ico HTTP/1.1" 404 4123
+Not Found: /login/img/product_logo.png
+[16/Mar/2021 02:29:00] "GET /login/img/product_logo.png HTTP/1.1" 404 4168
+Not Found: /images/ofbiz.ico
+[16/Mar/2021 02:29:00] "GET /images/ofbiz.ico HTTP/1.1" 404 4138
+Not Found: /attachment/logo/logo-default.png
+[16/Mar/2021 02:29:01] "GET /attachment/logo/logo-default.png HTTP/1.1" 404 4186
+[16/Mar/2021 02:29:01] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[16/Mar/2021 02:29:01] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+[16/Mar/2021 02:29:01] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[16/Mar/2021 02:29:01] "GET /static/admin/img/icon-no.gif HTTP/1.1" 404 1693
+[16/Mar/2021 02:29:01] "GET /static/admin/js/LICENSE-JQUERY.txt HTTP/1.1" 404 1711
+[16/Mar/2021 02:29:01] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[16/Mar/2021 02:29:01] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[16/Mar/2021 02:29:01] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+Not Found: /r/cms/www/red/img/prompt.jpg
+[16/Mar/2021 02:29:01] "GET /r/cms/www/red/img/prompt.jpg HTTP/1.1" 404 4174
+Not Found: /r/cms/www/red/style/swiper.min.js
+[16/Mar/2021 02:29:01] "GET /r/cms/www/red/style/swiper.min.js HTTP/1.1" 404 4189
+Not Found: /phpMyAdmin/
+[16/Mar/2021 02:29:01] "GET /phpMyAdmin/ HTTP/1.1" 404 4123
+Not Found: /phpmyadmin/
+[16/Mar/2021 02:29:01] "GET /phpmyadmin/ HTTP/1.1" 404 4123
+Not Found: /wcm/
+[16/Mar/2021 02:29:01] "GET /wcm/ HTTP/1.1" 404 4102
+[16/Mar/2021 09:09:12] "GET / HTTP/1.1" 200 5111
+[16/Mar/2021 09:09:13] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[16/Mar/2021 10:41:31] "GET / HTTP/1.1" 200 5111
+[16/Mar/2021 13:55:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[16/Mar/2021 13:55:05] "  /*à     Cookie: mstshash=Administr" 400 -
+[16/Mar/2021 14:37:16] "GET / HTTP/1.1" 200 5111
+[16/Mar/2021 14:37:17] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[16/Mar/2021 14:37:21] "GET /salary/ HTTP/1.1" 200 3586
+[16/Mar/2021 14:37:22] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[16/Mar/2021 14:37:24] "GET /district/ HTTP/1.1" 200 3688
+[16/Mar/2021 14:37:26] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[16/Mar/2021 14:37:27] "GET /education/ HTTP/1.1" 200 4430
+[16/Mar/2021 14:37:28] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[16/Mar/2021 14:37:29] "GET /wordCloud/ HTTP/1.1" 200 4659
+[16/Mar/2021 14:37:29] "GET /demo/WordCloudView/ HTTP/1.1" 200 96206
+[16/Mar/2021 19:49:25] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
+[16/Mar/2021 19:49:25] "  à          " 400 -
+[16/Mar/2021 20:15:12] "GET /? HTTP/1.1" 200 5111
+[16/Mar/2021 20:15:13] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[16/Mar/2021 20:15:15] "GET /salary/ HTTP/1.1" 200 3586
+[16/Mar/2021 20:15:16] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[16/Mar/2021 20:15:16] "GET /industryField/ HTTP/1.1" 200 4437
+[16/Mar/2021 20:15:17] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[16/Mar/2021 20:15:17] "GET /companySize/ HTTP/1.1" 200 4434
+[16/Mar/2021 20:15:18] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[16/Mar/2021 20:15:18] "GET /district/ HTTP/1.1" 200 3688
+[16/Mar/2021 20:15:20] "GET /education/ HTTP/1.1" 200 4430
+[16/Mar/2021 20:15:20] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[16/Mar/2021 20:15:20] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[16/Mar/2021 20:15:20] "GET /wordCloud/ HTTP/1.1" 200 4659
+[16/Mar/2021 20:15:20] "GET /demo/WordCloudView/ HTTP/1.1" 200 96224
+[16/Mar/2021 20:15:40] "GET /wordCloud/ HTTP/1.1" 200 4659
+[16/Mar/2021 20:15:42] "GET /demo/WordCloudView HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[16/Mar/2021 20:15:42] "GET /favicon.ico HTTP/1.1" 404 4123
+[16/Mar/2021 20:15:42] "GET /demo/WordCloudView/ HTTP/1.1" 200 96197
+[16/Mar/2021 20:16:13] "GET /education HTTP/1.1" 301 0
+[16/Mar/2021 20:16:13] "GET /education/ HTTP/1.1" 200 4430
+[16/Mar/2021 20:16:15] "GET /demo/EducationView HTTP/1.1" 301 0
+[16/Mar/2021 20:16:15] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[16/Mar/2021 20:16:19] "GET /district HTTP/1.1" 301 0
+[16/Mar/2021 20:16:19] "GET /district/ HTTP/1.1" 200 3688
+[16/Mar/2021 20:16:20] "GET /demo/DistrictView HTTP/1.1" 301 0
+[16/Mar/2021 20:16:21] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[16/Mar/2021 20:16:24] "GET /education/ HTTP/1.1" 200 4430
+[16/Mar/2021 20:16:24] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[16/Mar/2021 20:16:28] "GET /wordCloud HTTP/1.1" 301 0
+[16/Mar/2021 20:16:29] "GET /workYear HTTP/1.1" 301 0
+[16/Mar/2021 20:16:30] "GET /workYear/ HTTP/1.1" 200 4429
+[16/Mar/2021 20:16:31] "GET /demo/WorkYearView HTTP/1.1" 301 0
+[16/Mar/2021 20:16:31] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[16/Mar/2021 20:16:40] "GET /wordCloud HTTP/1.1" 301 0
+[16/Mar/2021 20:16:42] "GET /companySize HTTP/1.1" 301 0
+[16/Mar/2021 20:16:42] "GET /companySize/ HTTP/1.1" 200 4434
+[16/Mar/2021 20:16:42] "GET /demo/CompanySizeView HTTP/1.1" 301 0
+[16/Mar/2021 20:16:43] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[16/Mar/2021 20:16:50] "GET /industryField HTTP/1.1" 301 0
+[16/Mar/2021 20:16:51] "GET /industryField/ HTTP/1.1" 200 4437
+[16/Mar/2021 20:16:51] "GET /demo/IndustryFieldView HTTP/1.1" 301 0
+[16/Mar/2021 20:16:52] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[16/Mar/2021 20:16:57] "GET /salary HTTP/1.1" 301 0
+[16/Mar/2021 20:16:58] "GET /salary/ HTTP/1.1" 200 3586
+[16/Mar/2021 20:16:58] "GET /demo/SalaryView HTTP/1.1" 301 0
+[16/Mar/2021 20:16:59] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[16/Mar/2021 20:17:05] "GET /wordCloud HTTP/1.1" 301 0
+[16/Mar/2021 20:17:06] "GET /wordCloud/ HTTP/1.1" 200 4659
+[16/Mar/2021 20:17:06] "GET /demo/WordCloudView/ HTTP/1.1" 200 96179
+[16/Mar/2021 20:17:09] "GET / HTTP/1.1" 200 5111
+[16/Mar/2021 20:17:09] "GET /demo/PositionNameView HTTP/1.1" 301 0
+[16/Mar/2021 20:17:10] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[16/Mar/2021 20:17:20] "GET /district HTTP/1.1" 301 0
+[16/Mar/2021 20:17:20] "GET /education HTTP/1.1" 301 0
+[16/Mar/2021 20:17:31] "GET /workYear HTTP/1.1" 301 0
+[16/Mar/2021 20:17:51] "GET /industryField HTTP/1.1" 301 0
+[16/Mar/2021 20:17:58] "GET /salary HTTP/1.1" 301 0
+[16/Mar/2021 20:18:02] "GET /salary HTTP/1.1" 301 0
+[16/Mar/2021 20:18:55] "GET /wordCloud HTTP/1.1" 301 0
+[17/Mar/2021 02:39:29] "GET / HTTP/1.1" 200 5111
+Not Found: /explicit_not_exist_path
+[17/Mar/2021 02:39:29] "GET /explicit_not_exist_path HTTP/1.1" 404 4159
+[17/Mar/2021 02:39:29] "GET /admin/ HTTP/1.1" 302 0
+[17/Mar/2021 02:39:29] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2196
+Not Found: /robots.txt
+[17/Mar/2021 02:39:29] "GET /robots.txt HTTP/1.1" 404 4120
+Not Found: /favicon.ico
+[17/Mar/2021 02:39:29] "GET /favicon.ico HTTP/1.1" 404 4123
+Not Found: /login/img/product_logo.png
+[17/Mar/2021 02:39:29] "GET /login/img/product_logo.png HTTP/1.1" 404 4168
+Not Found: /images/ofbiz.ico
+[17/Mar/2021 02:39:29] "GET /images/ofbiz.ico HTTP/1.1" 404 4138
+Not Found: /attachment/logo/logo-default.png
+[17/Mar/2021 02:39:29] "GET /attachment/logo/logo-default.png HTTP/1.1" 404 4186
+[17/Mar/2021 02:39:30] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[17/Mar/2021 02:39:30] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+[17/Mar/2021 02:39:30] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[17/Mar/2021 02:39:30] "GET /static/admin/img/icon-no.gif HTTP/1.1" 404 1693
+[17/Mar/2021 02:39:30] "GET /static/admin/js/LICENSE-JQUERY.txt HTTP/1.1" 404 1711
+[17/Mar/2021 02:39:30] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[17/Mar/2021 02:39:30] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[17/Mar/2021 02:39:30] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+Not Found: /r/cms/www/red/img/prompt.jpg
+[17/Mar/2021 02:39:30] "GET /r/cms/www/red/img/prompt.jpg HTTP/1.1" 404 4174
+Not Found: /r/cms/www/red/style/swiper.min.js
+[17/Mar/2021 02:39:30] "GET /r/cms/www/red/style/swiper.min.js HTTP/1.1" 404 4189
+Not Found: /phpMyAdmin/
+[17/Mar/2021 02:39:30] "GET /phpMyAdmin/ HTTP/1.1" 404 4123
+Not Found: /phpmyadmin/
+[17/Mar/2021 02:39:30] "GET /phpmyadmin/ HTTP/1.1" 404 4123
+Not Found: /wcm/
+[17/Mar/2021 02:39:30] "GET /wcm/ HTTP/1.1" 404 4102
+[17/Mar/2021 03:29:16] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[17/Mar/2021 03:29:16] "  à          " 400 -
+[17/Mar/2021 04:47:11] "GET / HTTP/1.1" 200 5111
+[17/Mar/2021 10:18:15] "GET / HTTP/1.1" 200 5111
+Not Found: /explicit_not_exist_path
+[17/Mar/2021 10:18:15] "GET /explicit_not_exist_path HTTP/1.1" 404 4159
+[17/Mar/2021 10:18:16] "GET /admin/ HTTP/1.1" 302 0
+[17/Mar/2021 10:18:16] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2196
+Not Found: /robots.txt
+[17/Mar/2021 10:18:16] "GET /robots.txt HTTP/1.1" 404 4120
+Not Found: /favicon.ico
+[17/Mar/2021 10:18:16] "GET /favicon.ico HTTP/1.1" 404 4123
+Not Found: /login/img/product_logo.png
+[17/Mar/2021 10:18:16] "GET /login/img/product_logo.png HTTP/1.1" 404 4168
+Not Found: /images/ofbiz.ico
+[17/Mar/2021 10:18:16] "GET /images/ofbiz.ico HTTP/1.1" 404 4138
+Not Found: /attachment/logo/logo-default.png
+[17/Mar/2021 10:18:16] "GET /attachment/logo/logo-default.png HTTP/1.1" 404 4186
+[17/Mar/2021 10:18:16] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[17/Mar/2021 10:18:16] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+[17/Mar/2021 10:18:16] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[17/Mar/2021 10:18:16] "GET /static/admin/img/icon-no.gif HTTP/1.1" 404 1693
+[17/Mar/2021 10:18:16] "GET /static/admin/js/LICENSE-JQUERY.txt HTTP/1.1" 404 1711
+[17/Mar/2021 10:18:16] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[17/Mar/2021 10:18:16] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[17/Mar/2021 10:18:16] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+Not Found: /r/cms/www/red/img/prompt.jpg
+[17/Mar/2021 10:18:16] "GET /r/cms/www/red/img/prompt.jpg HTTP/1.1" 404 4174
+Not Found: /r/cms/www/red/style/swiper.min.js
+[17/Mar/2021 10:18:16] "GET /r/cms/www/red/style/swiper.min.js HTTP/1.1" 404 4189
+Not Found: /phpMyAdmin/
+[17/Mar/2021 10:18:16] "GET /phpMyAdmin/ HTTP/1.1" 404 4123
+Not Found: /phpmyadmin/
+[17/Mar/2021 10:18:16] "GET /phpmyadmin/ HTTP/1.1" 404 4123
+Not Found: /wcm/
+[17/Mar/2021 10:18:16] "GET /wcm/ HTTP/1.1" 404 4102
+[17/Mar/2021 13:01:21] "GET / HTTP/1.0" 200 5111
+[17/Mar/2021 13:01:22] "OPTIONS / HTTP/1.0" 200 164
+[17/Mar/2021 13:01:22] code 400, message Bad request version ('RTSP/1.0')
+[17/Mar/2021 13:01:22] "OPTIONS / RTSP/1.0" 400 -
+[17/Mar/2021 13:01:27] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[17/Mar/2021 13:01:27] "  (rþ          |                    " 400 -
+[17/Mar/2021 13:01:33] code 400, message Bad HTTP/0.9 request type ('\x00')
+[17/Mar/2021 13:01:33] "          versionbind   " 400 -
+[17/Mar/2021 13:01:38] code 400, message Bad HTTP/0.9 request type ('\x00')
+[17/Mar/2021 13:01:38] "            " 400 -
+[17/Mar/2021 13:01:38] code 400, message Bad request syntax ('EHLO')
+[17/Mar/2021 13:01:38] "EHLO" 400 -
+[17/Mar/2021 13:01:38] code 400, message Bad request syntax ('HELP')
+[17/Mar/2021 13:01:38] "HELP" 400 -
+[17/Mar/2021 13:01:39] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[17/Mar/2021 13:01:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[17/Mar/2021 13:01:40] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[17/Mar/2021 13:01:40] "  *%à     Cookie: mstshash=nmap" 400 -
+[17/Mar/2021 13:01:40] code 400, message Bad request version ('\x00/\x00')
+[17/Mar/2021 13:01:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[17/Mar/2021 13:01:41] code 400, message Bad HTTP/0.9 request type ('\x80\x9e\x01\x03\x01\x00u\x00\x00\x00')
+[17/Mar/2021 13:01:41] " u      f  e  d  c  b  :  9  8  5  4  3  2  /                        " 400 -
+[17/Mar/2021 13:01:41] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[17/Mar/2021 13:01:41] "   qjn0k¡¢" 400 -
+[17/Mar/2021 13:01:46] code 400, message Bad request version ('0.12\x00')
+[17/Mar/2021 13:01:46] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[17/Mar/2021 13:01:51] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[17/Mar/2021 13:01:51] "l          " 400 -
+Not Found: /nice ports,/Trinity.txt.bak
+[17/Mar/2021 13:01:52] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 4183
+[17/Mar/2021 13:01:52] code 400, message Bad request syntax ('\x01default')
+[17/Mar/2021 13:01:52] "default" 400 -
+[17/Mar/2021 13:01:52] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[17/Mar/2021 13:01:52] "0   -c   $ " 400 -
+[17/Mar/2021 13:01:57] code 400, message Bad HTTP/0.9 request type ('0')
+[17/Mar/2021 13:01:57] "0`  " 400 -
+[17/Mar/2021 13:01:57] code 400, message Bad request version ('SIP/2.0')
+[17/Mar/2021 13:01:57] "OPTIONS sip:nm SIP/2.0" 400 -
+[17/Mar/2021 13:02:02] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+[17/Mar/2021 13:02:02] "TNMP   TNME   " 400 -
+[17/Mar/2021 13:02:07] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+[17/Mar/2021 13:02:07] "  à     " 400 -
+[17/Mar/2021 13:02:12] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+[17/Mar/2021 13:02:12] "DmdT           ÿÿ" 400 -
+[17/Mar/2021 13:02:18] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+[17/Mar/2021 13:02:18] ":   /     @  =            /         @                 " 400 -
+[17/Mar/2021 13:02:23] code 400, message Bad request syntax ('DIST00000001ARGC00000005ARGV00000002ccARGV00000002-cARGV00000006nmap.cARGV00000002-oARGV00000006nmap.oDOTI00000000')
+[17/Mar/2021 13:02:23] "DIST00000001ARGC00000005ARGV00000002ccARGV00000002-cARGV00000006nmap.cARGV00000002-oARGV00000006nmap.oDOTI00000000" 400 -
+[17/Mar/2021 13:02:28] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[17/Mar/2021 13:02:28] "JRMI K" 400 -
+[17/Mar/2021 13:02:33] code 400, message Bad request syntax ('\x01\x00\x00\x00\x01\x00\x00\x00\x08\x08')
+[17/Mar/2021 13:02:33] "      " 400 -
+[17/Mar/2021 13:02:33] code 400, message Bad request version ('>')
+[17/Mar/2021 13:02:33] "< NTP/1.0 >" 400 -
+[17/Mar/2021 13:02:38] code 400, message Bad request version ('\x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+[17/Mar/2021 13:02:38] "  ýÎú°    MMS                    ðððð    N S P l a y e r / 9 . 0 . 0 . 2 9 8 0 ;   { 0 0 0 0 A A 0 0 - 0 A 0 0 - 0 0 a 0 - A A 0 A - 0 0 0 0 A 0 A A 0 A A 0 }   àmß_" 400 -
+[17/Mar/2021 13:02:43] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[17/Mar/2021 13:02:43] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[17/Mar/2021 13:02:43] code 400, message Bad request syntax ('Subscribe')
+[17/Mar/2021 13:02:43] "Subscribe" 400 -
+[17/Mar/2021 13:02:43] code 400, message Bad request syntax ('Query')
+[17/Mar/2021 13:02:43] "Query" 400 -
+[17/Mar/2021 13:02:44] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+[17/Mar/2021 13:02:44] "  " 400 -
+[17/Mar/2021 13:02:49] code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+[17/Mar/2021 13:02:49] "   root " 400 -
+[17/Mar/2021 13:02:54] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[17/Mar/2021 13:02:54] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[17/Mar/2021 13:02:54] code 400, message Bad request syntax ('HELP')
+[17/Mar/2021 13:02:54] "HELP" 400 -
+[17/Mar/2021 13:02:54] code 400, message Bad request syntax ('stats')
+[17/Mar/2021 13:02:54] "stats" 400 -
+[17/Mar/2021 13:02:54] code 400, message Bad request version ('\x06\x00\x00\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x02\x00\x00\x00')
+[17/Mar/2021 13:02:54] "            $   service_mgr       scanner nmap                     " 400 -
+[17/Mar/2021 13:02:59] code 400, message Bad request version ('\x00\x00\x00\x04')
+[17/Mar/2021 13:02:59] "    DB2DAS         9z                       " 400 -
+[17/Mar/2021 13:03:04] code 400, message Bad request version ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ä\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x7f')
+[17/Mar/2021 13:03:04] "Â     ¶  SQLDB2RA              	     @   	     @        @        @   @     @        @        @        @        @         @                                         @        @                        @   	     @   	                                                                 @         @                             ÿ                     ä                   " 400 -
+[17/Mar/2021 13:03:09] code 400, message Bad request version ('1\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[17/Mar/2021 13:03:10] "Client string for PARC version 1 Wire Encryption version 1                                                                                                                                                                                                     " 400 -
+[17/Mar/2021 13:03:10] code 400, message Bad HTTP/0.9 request type ('<\x00K\x00\x00\x00')
+[17/Mar/2021 13:03:10] "< K             ÿÿÿÿ  " 400 -
+[17/Mar/2021 13:03:10] code 400, message Bad request syntax ('\x124\x00\x01')
+[17/Mar/2021 13:03:10] "4 " 400 -
+[17/Mar/2021 13:03:15] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+[17/Mar/2021 13:03:15] "              " 400 -
+[17/Mar/2021 13:03:15] code 400, message Bad request syntax ('serverstatus')
+[17/Mar/2021 13:03:15] "serverstatus" 400 -
+[17/Mar/2021 13:03:20] code 400, message Bad HTTP/0.9 request type ('Âååå\x9e')
+[17/Mar/2021 13:03:20] "Âååå ×¤¦ÐÕÝÜÈÖÝ×ÕÈÑÖÈÝ¤Ñ¡È¤ÒÕ×Ý£¤¡Ý¦×Ýå" 400 -
+[17/Mar/2021 13:03:20] code 400, message Bad request syntax ('#ST')
+[17/Mar/2021 13:03:20] "#ST" 400 -
+[17/Mar/2021 13:03:25] code 400, message Bad request version ('\x00\x00\x00\x03\x00\x05nmap\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x7f')
+[17/Mar/2021 13:03:25] " <   d e   = IEEEM  lsqlexec      9.280  RDS#R000000  sqli   3          nmap  nmap ol         =tlitcp      h     nmap            j   " 400 -
+[17/Mar/2021 13:03:31] code 400, message Bad request syntax ('\x002Ð\x01\x00\x01\x00,\x10A\x00\x04\x11^\x00\x04\x11m\x00\x04\x11Z\x00\x18\x14\x04\x14\x03\x00\x07$\x07\x00\x08$\x0f\x00\x08\x14@\x00\x08\x14t\x00\x08\x00\x04\x11G')
+[17/Mar/2021 13:03:31] " 2Ð  ,A ^ m Z  $ $ @ t  G" 400 -
+[17/Mar/2021 13:03:31] code 400, message Bad HTTP/0.9 request type ('TSH')
+[17/Mar/2021 13:03:31] "TSH    ì1           ¸  ID  " 400 -
+Not Found: /server-info
+[17/Mar/2021 13:03:31] "GET /server-info HTTP/1.1" 404 4133
+[17/Mar/2021 13:03:36] code 400, message Bad request syntax ('A\x00\x00\x00:0\x00\x00ÿÿÿÿÔ\x07\x00\x00\x00\x00\x00\x00test.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x1b\x00\x00\x00\x01serverStatus\x00\x00\x00\x00\x00\x00\x00ð?\x00')
+[17/Mar/2021 13:03:36] "A   :0  ÿÿÿÿÔ      test.$cmd     ÿÿÿÿ   serverStatus       ð? " 400 -
+[17/Mar/2021 13:03:37] code 400, message Bad request syntax ('*1')
+[17/Mar/2021 13:03:37] "*1" 400 -
+[17/Mar/2021 13:03:42] code 400, message Bad request syntax ('\x00\x00\x00\x01\x07')
+[17/Mar/2021 13:03:42] "   " 400 -
+[17/Mar/2021 13:03:42] code 400, message Bad HTTP/0.9 request type ('show')
+[17/Mar/2021 13:03:42] "show info" 400 -
+[17/Mar/2021 13:03:47] code 400, message Bad request syntax ('\x80\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x15ðÑb\x00\x00\x00\x00\x00\x00\x00\x00')
+[17/Mar/2021 13:03:47] "          ðÑb        " 400 -
+[17/Mar/2021 13:03:52] code 400, message Bad request syntax ('\x00\x01n')
+[17/Mar/2021 13:03:52] " n" 400 -
+[17/Mar/2021 13:03:57] code 400, message Bad request syntax ('vp3')
+[17/Mar/2021 13:03:57] "vp3" 400 -
+[17/Mar/2021 13:04:02] code 400, message Bad request syntax ('\x94\x00ÍïÑa\x91\x03')
+[17/Mar/2021 13:04:02] " ÍïÑa" 400 -
+[17/Mar/2021 13:04:07] code 400, message Bad request syntax ('þ\x01')
+[17/Mar/2021 13:04:07] "þ" 400 -
+Not Found: /version
+[17/Mar/2021 13:04:08] "GET /version HTTP/1.1" 404 4121
+[17/Mar/2021 13:04:13] code 400, message Bad request syntax ('\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06')
+[17/Mar/2021 13:04:13] "       " 400 -
+[17/Mar/2021 13:04:18] code 400, message Bad request syntax ('ÿû\x18ÿú\x18\x00IBM-3279-4-Eÿðÿû\x19ÿý\x19ÿû\x00ÿý\x00')
+[17/Mar/2021 13:04:18] "ÿûÿú IBM-3279-4-Eÿðÿûÿýÿû ÿý " 400 -
+[17/Mar/2021 13:04:23] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+[17/Mar/2021 13:04:23] "GIOP  $                abcdef     get     " 400 -
+[17/Mar/2021 13:04:28] code 400, message Bad request syntax ('VERSION')
+[17/Mar/2021 13:04:28] "VERSION" 400 -
+[17/Mar/2021 13:04:33] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+[17/Mar/2021 13:04:33] "CNXN         2  ¼±§±host:: " 400 -
+[17/Mar/2021 13:04:38] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00\x10\x00\x00\x00')
+[17/Mar/2021 13:04:38] "      {"code":106}" 400 -
+[17/Mar/2021 13:04:43] code 400, message Bad request syntax ('\x0c\x00\x01\x00\x00\x00ImYorDad0u\x00\x00')
+[17/Mar/2021 13:04:43] "    ImYorDad0u  " 400 -
+[17/Mar/2021 13:04:48] code 400, message Bad HTTP/0.9 request type ('ÚÚ\x01\x00\x00\x00\x14\x00\x10\x03\x08\x00\x00\x00')
+[17/Mar/2021 13:04:48] "ÚÚ       M    " 400 -
+[17/Mar/2021 13:05:49] code 400, message Bad request version ("^\x83\x02Ëè\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[17/Mar/2021 13:05:49] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[17/Mar/2021 13:06:12] code 400, message Bad request version ('\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[17/Mar/2021 13:06:12] "  (/ê                                " 400 -
+[17/Mar/2021 13:18:25] "GET /salary/ HTTP/1.1" 200 3586
+[17/Mar/2021 13:18:26] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[17/Mar/2021 13:18:26] "GET /industryField/ HTTP/1.1" 200 4437
+[17/Mar/2021 13:18:27] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[17/Mar/2021 13:18:28] "GET /companySize/ HTTP/1.1" 200 4434
+[17/Mar/2021 13:18:28] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[17/Mar/2021 13:18:29] "GET /workYear/ HTTP/1.1" 200 4429
+[17/Mar/2021 13:18:30] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[17/Mar/2021 13:18:30] "GET /district/ HTTP/1.1" 200 3688
+[17/Mar/2021 13:18:32] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[17/Mar/2021 13:18:33] "GET /education/ HTTP/1.1" 200 4430
+[17/Mar/2021 13:18:34] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[17/Mar/2021 13:18:35] "GET /wordCloud/ HTTP/1.1" 200 4659
+[17/Mar/2021 13:18:35] "GET /demo/WordCloudView/ HTTP/1.1" 200 96167
+[17/Mar/2021 13:18:36] "GET /education/ HTTP/1.1" 200 4430
+[17/Mar/2021 13:18:37] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[17/Mar/2021 13:18:37] "GET /wordCloud/ HTTP/1.1" 200 4659
+[17/Mar/2021 13:18:37] "GET /demo/WordCloudView/ HTTP/1.1" 200 96215
+[17/Mar/2021 13:18:47] "GET /wordCloud/ HTTP/1.1" 200 4659
+[17/Mar/2021 13:18:47] "GET /demo/WordCloudView/ HTTP/1.1" 200 96193
+[17/Mar/2021 13:18:49] "GET /wordCloud/ HTTP/1.1" 200 4659
+[17/Mar/2021 13:18:49] "GET /demo/WordCloudView/ HTTP/1.1" 200 96250
+[17/Mar/2021 13:18:50] "GET /wordCloud/ HTTP/1.1" 200 4659
+[17/Mar/2021 13:18:50] "GET /demo/WordCloudView/ HTTP/1.1" 200 96169
+[17/Mar/2021 13:19:01] "GET /education/ HTTP/1.1" 200 4430
+[17/Mar/2021 13:19:02] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[17/Mar/2021 13:19:03] "GET /district/ HTTP/1.1" 200 3688
+[17/Mar/2021 13:19:04] "GET /workYear/ HTTP/1.1" 200 4429
+[17/Mar/2021 13:19:05] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[17/Mar/2021 13:19:05] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[17/Mar/2021 13:19:05] "GET /companySize/ HTTP/1.1" 200 4434
+[17/Mar/2021 13:19:06] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[17/Mar/2021 13:19:06] "GET /industryField/ HTTP/1.1" 200 4437
+[17/Mar/2021 13:19:07] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[17/Mar/2021 13:19:07] "GET /salary/ HTTP/1.1" 200 3586
+[17/Mar/2021 13:19:08] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[17/Mar/2021 13:19:08] "GET / HTTP/1.1" 200 5111
+[17/Mar/2021 13:19:09] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[17/Mar/2021 13:19:14] "GET /demo/PositionNameView?start=1&end=-1 HTTP/1.1" 301 0
+[17/Mar/2021 13:19:15] "GET /demo/PositionNameView/?start=1&end=-1 HTTP/1.1" 200 777930
+[17/Mar/2021 13:19:16] "GET /salary/ HTTP/1.1" 200 3586
+----------------------------------------
+Exception happened during processing of request from ('36.7.111.51', 14362)
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[17/Mar/2021 13:19:16] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[17/Mar/2021 13:19:17] "GET / HTTP/1.1" 200 5111
+[17/Mar/2021 13:19:18] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[17/Mar/2021 13:19:22] "GET /demo/PositionNameView?start=1&end=10 HTTP/1.1" 301 0
+[17/Mar/2021 13:19:23] "GET /demo/PositionNameView/?start=1&end=10 HTTP/1.1" 200 2532
+[17/Mar/2021 13:19:31] "GET /demo/PositionNameView?start=1&end=100 HTTP/1.1" 301 0
+[17/Mar/2021 13:19:32] "GET /demo/PositionNameView/?start=1&end=100 HTTP/1.1" 200 7514
+[17/Mar/2021 14:50:43] "GET / HTTP/1.1" 200 5111
+[17/Mar/2021 16:05:34] code 400, message Bad request version ("¹@\x7f}Uö-À\x1a½Nw=ÿ(ÙÍ}\x8bÓÔuvÙHÿ¤¤Äì/\x08\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+[17/Mar/2021 16:05:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[17/Mar/2021 16:05:34] "GET / HTTP/1.1" 200 5111
+[17/Mar/2021 19:05:49] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[17/Mar/2021 19:05:49] "  /*à     Cookie: mstshash=Administr" 400 -
+[17/Mar/2021 21:25:51] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[17/Mar/2021 21:25:51] "  /*à     Cookie: mstshash=Administr" 400 -
+----------------------------------------
+Exception happened during processing of request from ('89.248.165.24', 65233)
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[18/Mar/2021 02:29:12] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[18/Mar/2021 02:29:12] "  /*à     Cookie: mstshash=Administr" 400 -
+[18/Mar/2021 05:49:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[18/Mar/2021 05:49:25] "  /*à     Cookie: mstshash=Administr" 400 -
+[18/Mar/2021 10:43:38] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[18/Mar/2021 10:43:38] "  /*à     Cookie: mstshash=Administr" 400 -
+[18/Mar/2021 12:19:42] "GET / HTTP/1.1" 200 5111
+[18/Mar/2021 14:27:59] "HEAD / HTTP/1.0" 200 5111
+Not Found: /system_api.php
+[18/Mar/2021 14:28:00] "GET /system_api.php HTTP/1.1" 404 4132
+Not Found: /system_api.php
+[18/Mar/2021 14:28:01] "GET /system_api.php HTTP/1.1" 404 4132
+Not Found: /c/version.js
+[18/Mar/2021 14:28:01] "GET /c/version.js HTTP/1.1" 404 4126
+Not Found: /streaming/clients_live.php
+[18/Mar/2021 14:28:02] "GET /streaming/clients_live.php HTTP/1.1" 404 4168
+Not Found: /stalker_portal/c/version.js
+[18/Mar/2021 14:28:02] "GET /stalker_portal/c/version.js HTTP/1.1" 404 4171
+Not Found: /client_area/
+[18/Mar/2021 14:28:03] "GET /client_area/ HTTP/1.1" 404 4126
+Not Found: /stalker_portal/c/
+[18/Mar/2021 14:28:03] "GET /stalker_portal/c/ HTTP/1.1" 404 4141
+Not Found: /stream/rtmp.php
+[18/Mar/2021 14:28:04] "GET /stream/rtmp.php HTTP/1.1" 404 4135
+[18/Mar/2021 14:28:29] "GET /wordCloud HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[18/Mar/2021 16:39:01] "GET /favicon.ico HTTP/1.1" 404 4123
+[18/Mar/2021 18:12:18] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[18/Mar/2021 18:12:18] "  /*à     Cookie: mstshash=Administr" 400 -
+[19/Mar/2021 06:13:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[19/Mar/2021 06:13:59] "  /*à     Cookie: mstshash=Administr" 400 -
+[19/Mar/2021 13:05:12] "GET / HTTP/1.1" 200 5111
+[19/Mar/2021 17:53:14] code 400, message Bad request syntax ('{\x01\x00\x1615888888888À¨\x90Á\x13\x8a{')
+[19/Mar/2021 17:53:14] "{ 15888888888À¨Á{" 400 -
+[19/Mar/2021 17:55:05] code 400, message Bad HTTP/0.9 request type ('xx')
+[19/Mar/2021 17:55:05] "xxSA52b -" 400 -
+[19/Mar/2021 17:57:14] code 400, message Bad request syntax ('&&&&~\x04»8ÅaýT\x07P.VJÃ\x04;\x13\x0600-0C-29-B1-35-79')
+[19/Mar/2021 17:57:14] "&&&&~»8ÅaýTP.VJÃ;00-0C-29-B1-35-79" 400 -
+[19/Mar/2021 17:59:14] code 400, message Bad request syntax ('~\x00\x02\x00\x00\x01\x88\x88\x88\x88\x88\x03¥-~')
+[19/Mar/2021 17:59:14] "~   ¥-~" 400 -
+[19/Mar/2021 18:01:03] code 400, message Bad request syntax ('[\x00\x00\x00H\x00\x00\x00\x01\x10\x01\x00\x01\x04j\x00\x00\x01\x00\x00\x00\x00')
+[19/Mar/2021 18:01:03] "[   H    j      " 400 -
+[19/Mar/2021 18:03:13] code 400, message Bad request syntax ('~~\x01\x00\x124Vx\x124/\x00\x08\x02\x00\x03Y\x10\x11\x15Q\x11\x03kÊ')
+[19/Mar/2021 18:03:13] "~~ 4Vx4/  YQkÊ" 400 -
+[19/Mar/2021 18:05:12] code 400, message Bad request syntax ('333766643833656338616434363333643963363962386536653538383937393235613033653338636434')
+[19/Mar/2021 18:05:12] "333766643833656338616434363333643963363962386536653538383937393235613033653338636434" 400 -
+[19/Mar/2021 18:05:12,719] - Broken pipe from ('161.189.192.94', 56202)
+
+[19/Mar/2021 20:09:56] "GET / HTTP/1.1" 200 5111
+[20/Mar/2021 02:48:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[20/Mar/2021 02:48:58] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /favicon.ico
+[20/Mar/2021 16:36:19] "GET /favicon.ico HTTP/1.1" 404 4123
+[20/Mar/2021 17:09:04] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[20/Mar/2021 17:09:04] "  /*à     Cookie: mstshash=Administr" 400 -
+[20/Mar/2021 17:42:05] "GET / HTTP/1.1" 200 5111
+[20/Mar/2021 22:14:04] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[20/Mar/2021 22:14:04] "  /*à     Cookie: mstshash=Administr" 400 -
+[20/Mar/2021 23:23:42] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[20/Mar/2021 23:23:42] "  /*à     Cookie: mstshash=Administr" 400 -
+[21/Mar/2021 17:00:25] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[21/Mar/2021 17:00:25] "  /*à     Cookie: mstshash=Administr" 400 -
+[21/Mar/2021 21:43:26] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[21/Mar/2021 21:43:26] "  /*à     Cookie: mstshash=Administr" 400 -
+[21/Mar/2021 23:03:40] "GET / HTTP/1.0" 200 5111
+[21/Mar/2021 23:03:43] "OPTIONS / HTTP/1.0" 200 164
+[21/Mar/2021 23:03:47] code 400, message Bad request version ('RTSP/1.0')
+[21/Mar/2021 23:03:47] "OPTIONS / RTSP/1.0" 400 -
+[21/Mar/2021 23:03:55] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[21/Mar/2021 23:03:55] "  (rþ          |                    " 400 -
+[21/Mar/2021 23:04:01] code 400, message Bad HTTP/0.9 request type ('\x00')
+[21/Mar/2021 23:04:01] "          versionbind   " 400 -
+[21/Mar/2021 23:04:08] code 400, message Bad HTTP/0.9 request type ('\x00')
+[21/Mar/2021 23:04:08] "            " 400 -
+[21/Mar/2021 23:04:08] code 400, message Bad request syntax ('EHLO')
+[21/Mar/2021 23:04:08] "EHLO" 400 -
+[21/Mar/2021 23:04:12] code 400, message Bad request syntax ('HELP')
+[21/Mar/2021 23:04:12] "HELP" 400 -
+[21/Mar/2021 23:04:15] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[21/Mar/2021 23:04:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[21/Mar/2021 23:04:17] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[21/Mar/2021 23:04:17] "  *%à     Cookie: mstshash=nmap" 400 -
+[21/Mar/2021 23:04:20] code 400, message Bad request version ('\x00/\x00')
+[21/Mar/2021 23:04:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[21/Mar/2021 23:04:24] code 400, message Bad HTTP/0.9 request type ('\x80\x9e\x01\x03\x01\x00u\x00\x00\x00')
+[21/Mar/2021 23:04:24] " u      f  e  d  c  b  :  9  8  5  4  3  2  /                        " 400 -
+[21/Mar/2021 23:04:28] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[21/Mar/2021 23:04:28] "   qjn0k¡¢" 400 -
+[21/Mar/2021 23:04:38] code 400, message Bad request version ('0.12\x00')
+[21/Mar/2021 23:04:38] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[21/Mar/2021 23:04:44] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[21/Mar/2021 23:04:44] "l          " 400 -
+Not Found: /nice ports,/Trinity.txt.bak
+[21/Mar/2021 23:04:45] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 4183
+[21/Mar/2021 23:04:46] code 400, message Bad request syntax ('\x01default')
+[21/Mar/2021 23:04:46] "default" 400 -
+[21/Mar/2021 23:04:48] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[21/Mar/2021 23:04:48] "0   -c   $ " 400 -
+[21/Mar/2021 23:04:55] code 400, message Bad HTTP/0.9 request type ('0')
+[21/Mar/2021 23:04:55] "0`  " 400 -
+[21/Mar/2021 23:04:56] code 400, message Bad request version ('SIP/2.0')
+[21/Mar/2021 23:04:56] "OPTIONS sip:nm SIP/2.0" 400 -
+[21/Mar/2021 23:05:04] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+[21/Mar/2021 23:05:04] "TNMP   TNME   " 400 -
+[21/Mar/2021 23:05:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+[21/Mar/2021 23:05:10] "  à     " 400 -
+[21/Mar/2021 23:05:16] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+[21/Mar/2021 23:05:16] "DmdT           ÿÿ" 400 -
+[21/Mar/2021 23:05:22] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+[21/Mar/2021 23:05:22] ":   /     @  =            /         @                 " 400 -
+[21/Mar/2021 23:05:28] code 400, message Bad request syntax ('DIST00000001ARGC00000005ARGV00000002ccARGV00000002-cARGV00000006nmap.cARGV00000002-oARGV00000006nmap.oDOTI00000000')
+[21/Mar/2021 23:05:28] "DIST00000001ARGC00000005ARGV00000002ccARGV00000002-cARGV00000006nmap.cARGV00000002-oARGV00000006nmap.oDOTI00000000" 400 -
+[21/Mar/2021 23:05:34] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[21/Mar/2021 23:05:34] "JRMI K" 400 -
+[21/Mar/2021 23:05:39] code 400, message Bad request syntax ('\x01\x00\x00\x00\x01\x00\x00\x00\x08\x08')
+[21/Mar/2021 23:05:39] "      " 400 -
+[21/Mar/2021 23:05:40] code 400, message Bad request version ('>')
+[21/Mar/2021 23:05:40] "< NTP/1.0 >" 400 -
+[21/Mar/2021 23:05:46] code 400, message Bad request version ('\x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+[21/Mar/2021 23:05:46] "  ýÎú°    MMS                    ðððð    N S P l a y e r / 9 . 0 . 0 . 2 9 8 0 ;   { 0 0 0 0 A A 0 0 - 0 A 0 0 - 0 0 a 0 - A A 0 A - 0 0 0 0 A 0 A A 0 A A 0 }   àmß_" 400 -
+[21/Mar/2021 23:05:52] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[21/Mar/2021 23:05:52] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[21/Mar/2021 23:05:53] code 400, message Bad request syntax ('Subscribe')
+[21/Mar/2021 23:05:53] "Subscribe" 400 -
+[21/Mar/2021 23:05:54] code 400, message Bad request syntax ('Query')
+[21/Mar/2021 23:05:54] "Query" 400 -
+[21/Mar/2021 23:05:57] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+[21/Mar/2021 23:05:57] "  " 400 -
+[21/Mar/2021 23:06:04] code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+[21/Mar/2021 23:06:04] "   root " 400 -
+[21/Mar/2021 23:06:10] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[21/Mar/2021 23:06:10] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[21/Mar/2021 23:06:11] code 400, message Bad request syntax ('HELP')
+[21/Mar/2021 23:06:11] "HELP" 400 -
+[21/Mar/2021 23:06:13] code 400, message Bad request syntax ('stats')
+[21/Mar/2021 23:06:13] "stats" 400 -
+[21/Mar/2021 23:06:16] code 400, message Bad request version ('\x06\x00\x00\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x02\x00\x00\x00')
+[21/Mar/2021 23:06:16] "            $   service_mgr       scanner nmap                     " 400 -
+[21/Mar/2021 23:06:25] code 400, message Bad request version ('\x00\x00\x00\x04')
+[21/Mar/2021 23:06:25] "    DB2DAS         9z                       " 400 -
+[21/Mar/2021 23:06:31] code 400, message Bad request version ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ä\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x7f')
+[21/Mar/2021 23:06:31] "Â     ¶  SQLDB2RA              	     @   	     @        @        @   @     @        @        @        @        @         @                                         @        @                        @   	     @   	                                                                 @         @                             ÿ                     ä                   " 400 -
+[21/Mar/2021 23:06:38] code 400, message Bad request version ('1\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[21/Mar/2021 23:06:38] "Client string for PARC version 1 Wire Encryption version 1                                                                                                                                                                                                     " 400 -
+[21/Mar/2021 23:06:39] code 400, message Bad HTTP/0.9 request type ('<\x00K\x00\x00\x00')
+[21/Mar/2021 23:06:39] "< K             ÿÿÿÿ  " 400 -
+[21/Mar/2021 23:06:42] code 400, message Bad request syntax ('\x124\x00\x01')
+[21/Mar/2021 23:06:42] "4 " 400 -
+[21/Mar/2021 23:06:49] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+[21/Mar/2021 23:06:49] "              " 400 -
+[21/Mar/2021 23:06:50] code 400, message Bad request syntax ('serverstatus')
+[21/Mar/2021 23:06:50] "serverstatus" 400 -
+[21/Mar/2021 23:06:58] code 400, message Bad HTTP/0.9 request type ('Âååå\x9e')
+[21/Mar/2021 23:06:58] "Âååå ×¤¦ÐÕÝÜÈÖÝ×ÕÈÑÖÈÝ¤Ñ¡È¤ÒÕ×Ý£¤¡Ý¦×Ýå" 400 -
+[21/Mar/2021 23:06:59] code 400, message Bad request syntax ('#ST')
+[21/Mar/2021 23:06:59] "#ST" 400 -
+[21/Mar/2021 23:07:05] code 400, message Bad request version ('\x00\x00\x00\x03\x00\x05nmap\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x7f')
+[21/Mar/2021 23:07:05] " <   d e   = IEEEM  lsqlexec      9.280  RDS#R000000  sqli   3          nmap  nmap ol         =tlitcp      h     nmap            j   " 400 -
+[21/Mar/2021 23:07:10] code 400, message Bad request syntax ('\x002Ð\x01\x00\x01\x00,\x10A\x00\x04\x11^\x00\x04\x11m\x00\x04\x11Z\x00\x18\x14\x04\x14\x03\x00\x07$\x07\x00\x08$\x0f\x00\x08\x14@\x00\x08\x14t\x00\x08\x00\x04\x11G')
+[21/Mar/2021 23:07:10] " 2Ð  ,A ^ m Z  $ $ @ t  G" 400 -
+[21/Mar/2021 23:07:11] code 400, message Bad HTTP/0.9 request type ('TSH')
+[21/Mar/2021 23:07:11] "TSH    ì1           ¸  ID  " 400 -
+Not Found: /server-info
+[21/Mar/2021 23:07:12] "GET /server-info HTTP/1.1" 404 4133
+[21/Mar/2021 23:07:18] code 400, message Bad request syntax ('A\x00\x00\x00:0\x00\x00ÿÿÿÿÔ\x07\x00\x00\x00\x00\x00\x00test.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x1b\x00\x00\x00\x01serverStatus\x00\x00\x00\x00\x00\x00\x00ð?\x00')
+[21/Mar/2021 23:07:18] "A   :0  ÿÿÿÿÔ      test.$cmd     ÿÿÿÿ   serverStatus       ð? " 400 -
+[21/Mar/2021 23:07:18] code 400, message Bad request syntax ('*1')
+[21/Mar/2021 23:07:18] "*1" 400 -
+[21/Mar/2021 23:07:23] code 400, message Bad request syntax ('\x00\x00\x00\x01\x07')
+[21/Mar/2021 23:07:23] "   " 400 -
+[21/Mar/2021 23:07:24] code 400, message Bad HTTP/0.9 request type ('show')
+[21/Mar/2021 23:07:24] "show info" 400 -
+[21/Mar/2021 23:07:29] code 400, message Bad request syntax ('\x80\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x15ðÑb\x00\x00\x00\x00\x00\x00\x00\x00')
+[21/Mar/2021 23:07:29] "          ðÑb        " 400 -
+[21/Mar/2021 23:07:35] code 400, message Bad request syntax ('\x00\x01n')
+[21/Mar/2021 23:07:35] " n" 400 -
+[21/Mar/2021 23:07:40] code 400, message Bad request syntax ('vp3')
+[21/Mar/2021 23:07:40] "vp3" 400 -
+[21/Mar/2021 23:07:45] code 400, message Bad request syntax ('\x94\x00ÍïÑa\x91\x03')
+[21/Mar/2021 23:07:45] " ÍïÑa" 400 -
+[21/Mar/2021 23:07:51] code 400, message Bad request syntax ('þ\x01')
+[21/Mar/2021 23:07:51] "þ" 400 -
+Not Found: /version
+[21/Mar/2021 23:07:51] "GET /version HTTP/1.1" 404 4121
+[21/Mar/2021 23:07:56] code 400, message Bad request syntax ('\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06')
+[21/Mar/2021 23:07:56] "       " 400 -
+[21/Mar/2021 23:08:01] code 400, message Bad request syntax ('ÿû\x18ÿú\x18\x00IBM-3279-4-Eÿðÿû\x19ÿý\x19ÿû\x00ÿý\x00')
+[21/Mar/2021 23:08:01] "ÿûÿú IBM-3279-4-Eÿðÿûÿýÿû ÿý " 400 -
+[21/Mar/2021 23:08:06] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+[21/Mar/2021 23:08:06] "GIOP  $                abcdef     get     " 400 -
+[21/Mar/2021 23:08:11] code 400, message Bad request syntax ('VERSION')
+[21/Mar/2021 23:08:11] "VERSION" 400 -
+[21/Mar/2021 23:08:16] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+[21/Mar/2021 23:08:16] "CNXN         2  ¼±§±host:: " 400 -
+[21/Mar/2021 23:08:21] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00\x10\x00\x00\x00')
+[21/Mar/2021 23:08:21] "      {"code":106}" 400 -
+[21/Mar/2021 23:08:26] code 400, message Bad request syntax ('\x0c\x00\x01\x00\x00\x00ImYorDad0u\x00\x00')
+[21/Mar/2021 23:08:26] "    ImYorDad0u  " 400 -
+[21/Mar/2021 23:08:31] code 400, message Bad HTTP/0.9 request type ('ÚÚ\x01\x00\x00\x00\x14\x00\x10\x03\x08\x00\x00\x00')
+[21/Mar/2021 23:08:31] "ÚÚ       M    " 400 -
+[21/Mar/2021 23:10:20] code 400, message Bad request version ("u2A;©äØËÎÝ\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[21/Mar/2021 23:10:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[21/Mar/2021 23:10:52] code 400, message Bad request version ('\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[21/Mar/2021 23:10:52] "  (¥1ß                                " 400 -
+[22/Mar/2021 04:37:08] code 400, message Bad request version ("éív¸û\x10\x07ö?ü\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+[22/Mar/2021 04:37:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[22/Mar/2021 04:37:08] "GET / HTTP/1.1" 200 5111
+[22/Mar/2021 20:09:57] code 400, message Bad request version ("\x02È\x83\x96\x02£P£Wê\x00sSPUðuï£ÄxvÂ\x104M\x9dVfv\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[22/Mar/2021 20:09:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[22/Mar/2021 20:10:19] code 400, message Bad HTTP/0.9 request type ('\x80\x00\x00(45^ò\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86')
+[22/Mar/2021 20:10:19] "  (45^ò                                " 400 -
+[22/Mar/2021 20:51:31] "GET / HTTP/1.1" 200 5111
+[22/Mar/2021 20:51:38] "GET / HTTP/1.1" 200 5111
+[22/Mar/2021 20:51:39] "GET /demo/PositionNameView HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[22/Mar/2021 20:51:39] "GET /favicon.ico HTTP/1.1" 404 4123
+[22/Mar/2021 20:51:40] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[22/Mar/2021 20:51:55] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[22/Mar/2021 20:51:57] "GET /favicon.ico HTTP/1.1" 404 4123
+[22/Mar/2021 20:51:57] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[22/Mar/2021 20:52:06] "GET /salary/ HTTP/1.1" 200 3586
+[22/Mar/2021 20:52:07] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[22/Mar/2021 20:52:10] "GET /industryField/ HTTP/1.1" 200 4437
+[22/Mar/2021 20:52:11] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[22/Mar/2021 20:52:14] "GET /demo/PositionNameView?start=1&end=2 HTTP/1.1" 301 0
+[22/Mar/2021 20:52:14] "GET /demo/PositionNameView/?start=1&end=2 HTTP/1.1" 200 2144
+[22/Mar/2021 20:52:15] "GET /companySize/ HTTP/1.1" 200 4434
+[22/Mar/2021 20:52:16] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[22/Mar/2021 20:52:19] "GET /workYear/ HTTP/1.1" 200 4429
+[22/Mar/2021 20:52:19] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[22/Mar/2021 20:52:21] "GET /district/ HTTP/1.1" 200 3688
+[22/Mar/2021 20:52:21] "GET /demo/PositionNameView?start=1&end=3 HTTP/1.1" 301 0
+[22/Mar/2021 20:52:22] "GET /demo/PositionNameView/?start=1&end=3 HTTP/1.1" 200 2193
+[22/Mar/2021 20:52:23] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[22/Mar/2021 20:52:25] "GET /education/ HTTP/1.1" 200 4430
+[22/Mar/2021 20:52:25] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[22/Mar/2021 20:52:28] "GET /demo/PositionNameView?start=1&end=4 HTTP/1.1" 301 0
+[22/Mar/2021 20:52:29] "GET /demo/PositionNameView/?start=1&end=4 HTTP/1.1" 200 2254
+[22/Mar/2021 20:52:33] "GET /demo/PositionNameView?start=2&end=4 HTTP/1.1" 301 0
+[22/Mar/2021 20:52:34] "GET /demo/PositionNameView/?start=2&end=4 HTTP/1.1" 200 2225
+[22/Mar/2021 20:52:40] "GET /demo/PositionNameView?start=2&end=9 HTTP/1.1" 301 0
+[22/Mar/2021 20:52:40] "GET /demo/PositionNameView/?start=2&end=9 HTTP/1.1" 200 2458
+[22/Mar/2021 20:52:50] "GET /demo/PositionNameView?start=2&end=12 HTTP/1.1" 301 0
+[22/Mar/2021 20:52:51] "GET /demo/PositionNameView/?start=2&end=12 HTTP/1.1" 200 2626
+[22/Mar/2021 20:52:55] "GET /salary HTTP/1.1" 301 0
+[22/Mar/2021 20:52:55] "GET /salary/ HTTP/1.1" 200 3586
+[22/Mar/2021 20:52:55] "GET /demo/SalaryView HTTP/1.1" 301 0
+[22/Mar/2021 20:52:56] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[22/Mar/2021 20:52:57] "GET /industryField HTTP/1.1" 301 0
+[22/Mar/2021 20:52:57] "GET /industryField/ HTTP/1.1" 200 4437
+[22/Mar/2021 20:52:57] "GET /demo/IndustryFieldView HTTP/1.1" 301 0
+[22/Mar/2021 20:52:58] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[22/Mar/2021 20:53:00] "GET /companySize HTTP/1.1" 301 0
+[22/Mar/2021 20:53:00] "GET /companySize/ HTTP/1.1" 200 4434
+[22/Mar/2021 20:53:00] "GET /demo/CompanySizeView HTTP/1.1" 301 0
+[22/Mar/2021 20:53:00] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[22/Mar/2021 20:53:02] "GET /workYear HTTP/1.1" 301 0
+[22/Mar/2021 20:53:02] "GET /workYear/ HTTP/1.1" 200 4429
+[22/Mar/2021 20:53:02] "GET /demo/WorkYearView HTTP/1.1" 301 0
+[22/Mar/2021 20:53:02] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[22/Mar/2021 20:53:03] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[22/Mar/2021 20:53:03] "GET /favicon.ico HTTP/1.1" 404 4123
+[22/Mar/2021 20:53:03] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[22/Mar/2021 20:53:06] "GET /salary/ HTTP/1.1" 200 3586
+[22/Mar/2021 20:53:07] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[22/Mar/2021 20:53:08] "GET /district HTTP/1.1" 301 0
+[22/Mar/2021 20:53:08] "GET /district/ HTTP/1.1" 200 3688
+[22/Mar/2021 20:53:08] "GET /industryField/ HTTP/1.1" 200 4437
+[22/Mar/2021 20:53:08] "GET /demo/DistrictView HTTP/1.1" 301 0
+[22/Mar/2021 20:53:09] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[22/Mar/2021 20:53:10] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[22/Mar/2021 20:53:11] "GET /education HTTP/1.1" 301 0
+[22/Mar/2021 20:53:11] "GET /education/ HTTP/1.1" 200 4430
+[22/Mar/2021 20:53:11] "GET /demo/EducationView HTTP/1.1" 301 0
+[22/Mar/2021 20:53:12] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[22/Mar/2021 20:53:13] "GET /wordCloud HTTP/1.1" 301 0
+[22/Mar/2021 20:53:13] "GET /wordCloud/ HTTP/1.1" 200 4659
+[22/Mar/2021 20:53:14] "GET /demo/WordCloudView HTTP/1.1" 301 0
+[22/Mar/2021 20:53:14] "GET /demo/WordCloudView/ HTTP/1.1" 200 96163
+[22/Mar/2021 20:53:14] "GET /companySize/ HTTP/1.1" 200 4434
+[22/Mar/2021 20:53:15] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[22/Mar/2021 20:53:16] "GET /companySize HTTP/1.1" 301 0
+[22/Mar/2021 20:53:16] "GET /education/ HTTP/1.1" 200 4430
+[22/Mar/2021 20:53:16] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[22/Mar/2021 20:53:17] "GET /district/ HTTP/1.1" 200 3688
+[22/Mar/2021 20:53:18] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[22/Mar/2021 20:53:19] "GET /workYear HTTP/1.1" 301 0
+[22/Mar/2021 20:53:21] "GET /workYear/ HTTP/1.1" 200 4429
+[22/Mar/2021 20:53:21] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[22/Mar/2021 20:53:23] "GET /district HTTP/1.1" 301 0
+[22/Mar/2021 20:53:25] "GET /education HTTP/1.1" 301 0
+[22/Mar/2021 20:53:37] "GET /district/ HTTP/1.1" 200 3688
+[22/Mar/2021 20:53:38] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[22/Mar/2021 20:53:59] "GET /education/ HTTP/1.1" 200 4430
+[22/Mar/2021 20:54:00] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[22/Mar/2021 21:05:11] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[22/Mar/2021 21:05:11] "GET /favicon.ico HTTP/1.1" 404 4123
+[22/Mar/2021 21:05:12] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[22/Mar/2021 21:05:17] "GET /industryField/ HTTP/1.1" 200 4437
+[22/Mar/2021 21:05:17] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[22/Mar/2021 21:05:52] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[22/Mar/2021 21:05:53] "GET /favicon.ico HTTP/1.1" 404 4123
+[22/Mar/2021 21:05:53] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[22/Mar/2021 21:05:56] "GET /district/ HTTP/1.1" 200 3688
+[22/Mar/2021 21:05:57] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[22/Mar/2021 21:06:00] "GET /education/ HTTP/1.1" 200 4430
+[22/Mar/2021 21:06:01] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[22/Mar/2021 21:06:25] "GET /industryField HTTP/1.1" 301 0
+[22/Mar/2021 21:06:41] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[22/Mar/2021 21:06:42] "GET /favicon.ico HTTP/1.1" 404 4123
+[22/Mar/2021 21:06:42] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[22/Mar/2021 21:06:50] "GET /industryField/ HTTP/1.1" 200 4437
+[22/Mar/2021 21:06:51] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[22/Mar/2021 21:06:57] "GET /companySize/ HTTP/1.1" 200 4434
+[22/Mar/2021 21:06:58] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[22/Mar/2021 21:07:02] "GET /workYear/ HTTP/1.1" 200 4429
+[22/Mar/2021 21:07:03] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[22/Mar/2021 21:07:07] "GET /district/ HTTP/1.1" 200 3688
+[22/Mar/2021 21:07:08] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[22/Mar/2021 21:07:12] "GET /education/ HTTP/1.1" 200 4430
+[22/Mar/2021 21:07:13] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[22/Mar/2021 21:07:19] "GET /industryField/ HTTP/1.1" 200 4437
+[22/Mar/2021 21:07:20] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[22/Mar/2021 21:07:38] "GET /salary/ HTTP/1.1" 200 3586
+[22/Mar/2021 21:07:39] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[22/Mar/2021 21:07:44] "GET /industryField/ HTTP/1.1" 200 4437
+[22/Mar/2021 21:07:45] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[22/Mar/2021 23:12:26] "GET / HTTP/1.1" 200 5111
+[23/Mar/2021 04:48:37] code 400, message Bad request version ('i~Æ\x80h^:\x91:"ÎÂ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À\'\x00gÀ')
+[23/Mar/2021 04:48:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[23/Mar/2021 04:48:37] "GET / HTTP/1.1" 200 5111
+[23/Mar/2021 04:53:58] code 400, message Bad request version ("a©h\x8fê\x86»\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+[23/Mar/2021 04:53:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[23/Mar/2021 04:53:58] "GET / HTTP/1.1" 200 5111
+----------------------------------------
+Exception happened during processing of request from ('39.103.166.46', 49090)
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[23/Mar/2021 04:59:46] code 400, message Bad request version ('\x00/\x00')
+[23/Mar/2021 04:59:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[23/Mar/2021 04:59:46] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[23/Mar/2021 04:59:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[23/Mar/2021 04:59:48] code 400, message Bad HTTP/0.9 request type ('\x00')
+[23/Mar/2021 04:59:48] " n    nm@p" 400 -
+[23/Mar/2021 04:59:49] "GET / HTTP/1.0" 200 5111
+[23/Mar/2021 04:59:49] "HEAD / HTTP/1.1" 200 5111
+----------------------------------------
+Exception happened during processing of request from ('123.160.221.5', 45200)
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[23/Mar/2021 04:59:49] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[23/Mar/2021 04:59:56] "GET /favicon.ico HTTP/1.1" 404 4123
+----------------------------------------
+Exception happened during processing of request from ('123.160.221.5', 45264)
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[23/Mar/2021 20:02:17] "GET / HTTP/1.0" 200 5111
+[23/Mar/2021 20:02:20] "OPTIONS / HTTP/1.0" 200 164
+[23/Mar/2021 20:02:26] code 400, message Bad request version ('RTSP/1.0')
+[23/Mar/2021 20:02:26] "OPTIONS / RTSP/1.0" 400 -
+[23/Mar/2021 20:02:34] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[23/Mar/2021 20:02:34] "  (rþ          |                    " 400 -
+[23/Mar/2021 20:02:41] code 400, message Bad HTTP/0.9 request type ('\x00')
+[23/Mar/2021 20:02:41] "          versionbind   " 400 -
+[23/Mar/2021 20:02:47] code 400, message Bad HTTP/0.9 request type ('\x00')
+[23/Mar/2021 20:02:47] "            " 400 -
+[23/Mar/2021 20:02:48] code 400, message Bad request syntax ('EHLO')
+[23/Mar/2021 20:02:48] "EHLO" 400 -
+[23/Mar/2021 20:02:52] code 400, message Bad request syntax ('HELP')
+[23/Mar/2021 20:02:52] "HELP" 400 -
+[23/Mar/2021 20:02:56] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[23/Mar/2021 20:02:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[23/Mar/2021 20:02:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[23/Mar/2021 20:02:59] "  *%à     Cookie: mstshash=nmap" 400 -
+[23/Mar/2021 20:03:03] code 400, message Bad request version ('\x00/\x00')
+[23/Mar/2021 20:03:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[23/Mar/2021 20:03:07] code 400, message Bad HTTP/0.9 request type ('\x80\x9e\x01\x03\x01\x00u\x00\x00\x00')
+[23/Mar/2021 20:03:07] " u      f  e  d  c  b  :  9  8  5  4  3  2  /                        " 400 -
+[23/Mar/2021 20:03:12] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[23/Mar/2021 20:03:12] "   qjn0k¡¢" 400 -
+[23/Mar/2021 20:03:23] code 400, message Bad request version ('0.12\x00')
+[23/Mar/2021 20:03:23] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[23/Mar/2021 20:03:29] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[23/Mar/2021 20:03:29] "l          " 400 -
+Not Found: /nice ports,/Trinity.txt.bak
+[23/Mar/2021 20:03:31] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 4183
+[23/Mar/2021 20:03:33] code 400, message Bad request syntax ('\x01default')
+[23/Mar/2021 20:03:33] "default" 400 -
+[23/Mar/2021 20:03:37] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[23/Mar/2021 20:03:37] "0   -c   $ " 400 -
+[23/Mar/2021 20:03:45] code 400, message Bad HTTP/0.9 request type ('0')
+[23/Mar/2021 20:03:45] "0`  " 400 -
+[23/Mar/2021 20:03:46] code 400, message Bad request version ('SIP/2.0')
+[23/Mar/2021 20:03:46] "OPTIONS sip:nm SIP/2.0" 400 -
+[23/Mar/2021 20:03:55] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+[23/Mar/2021 20:03:55] "TNMP   TNME   " 400 -
+[23/Mar/2021 20:04:01] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+[23/Mar/2021 20:04:01] "  à     " 400 -
+[23/Mar/2021 20:04:08] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+[23/Mar/2021 20:04:08] "DmdT           ÿÿ" 400 -
+[23/Mar/2021 20:04:14] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+[23/Mar/2021 20:04:14] ":   /     @  =            /         @                 " 400 -
+[23/Mar/2021 20:04:20] code 400, message Bad request syntax ('DIST00000001ARGC00000005ARGV00000002ccARGV00000002-cARGV00000006nmap.cARGV00000002-oARGV00000006nmap.oDOTI00000000')
+[23/Mar/2021 20:04:20] "DIST00000001ARGC00000005ARGV00000002ccARGV00000002-cARGV00000006nmap.cARGV00000002-oARGV00000006nmap.oDOTI00000000" 400 -
+[23/Mar/2021 20:04:26] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[23/Mar/2021 20:04:26] "JRMI K" 400 -
+[23/Mar/2021 20:04:32] code 400, message Bad request syntax ('\x01\x00\x00\x00\x01\x00\x00\x00\x08\x08')
+[23/Mar/2021 20:04:32] "      " 400 -
+[23/Mar/2021 20:04:33] code 400, message Bad request version ('>')
+[23/Mar/2021 20:04:33] "< NTP/1.0 >" 400 -
+[23/Mar/2021 20:04:41] code 400, message Bad request version ('\x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+[23/Mar/2021 20:04:41] "  ýÎú°    MMS                    ðððð    N S P l a y e r / 9 . 0 . 0 . 2 9 8 0 ;   { 0 0 0 0 A A 0 0 - 0 A 0 0 - 0 0 a 0 - A A 0 A - 0 0 0 0 A 0 A A 0 A A 0 }   àmß_" 400 -
+[23/Mar/2021 20:04:47] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[23/Mar/2021 20:04:47] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[23/Mar/2021 20:04:49] code 400, message Bad request syntax ('Subscribe')
+[23/Mar/2021 20:04:49] "Subscribe" 400 -
+[23/Mar/2021 20:04:52] code 400, message Bad request syntax ('Query')
+[23/Mar/2021 20:04:52] "Query" 400 -
+[23/Mar/2021 20:04:55] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+[23/Mar/2021 20:04:55] "  " 400 -
+[23/Mar/2021 20:05:04] code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+[23/Mar/2021 20:05:04] "   root " 400 -
+[23/Mar/2021 20:05:10] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[23/Mar/2021 20:05:10] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[23/Mar/2021 20:05:11] code 400, message Bad request syntax ('HELP')
+[23/Mar/2021 20:05:11] "HELP" 400 -
+[23/Mar/2021 20:05:15] code 400, message Bad request syntax ('stats')
+[23/Mar/2021 20:05:15] "stats" 400 -
+[23/Mar/2021 20:05:18] code 400, message Bad request version ('\x06\x00\x00\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x02\x00\x00\x00')
+[23/Mar/2021 20:05:18] "            $   service_mgr       scanner nmap                     " 400 -
+[23/Mar/2021 20:05:27] code 400, message Bad request version ('\x00\x00\x00\x04')
+[23/Mar/2021 20:05:27] "    DB2DAS         9z                       " 400 -
+[23/Mar/2021 20:05:33] code 400, message Bad request version ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ä\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x7f')
+[23/Mar/2021 20:05:33] "Â     ¶  SQLDB2RA              	     @   	     @        @        @   @     @        @        @        @        @         @                                         @        @                        @   	     @   	                                                                 @         @                             ÿ                     ä                   " 400 -
+[23/Mar/2021 20:05:40] code 400, message Bad request version ('1\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[23/Mar/2021 20:05:40] "Client string for PARC version 1 Wire Encryption version 1                                                                                                                                                                                                     " 400 -
+[23/Mar/2021 20:05:41] code 400, message Bad HTTP/0.9 request type ('<\x00K\x00\x00\x00')
+[23/Mar/2021 20:05:41] "< K             ÿÿÿÿ  " 400 -
+[23/Mar/2021 20:05:44] code 400, message Bad request syntax ('\x124\x00\x01')
+[23/Mar/2021 20:05:44] "4 " 400 -
+[23/Mar/2021 20:05:53] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+[23/Mar/2021 20:05:53] "              " 400 -
+[23/Mar/2021 20:05:54] code 400, message Bad request syntax ('serverstatus')
+[23/Mar/2021 20:05:54] "serverstatus" 400 -
+[23/Mar/2021 20:06:02] code 400, message Bad HTTP/0.9 request type ('Âååå\x9e')
+[23/Mar/2021 20:06:02] "Âååå ×¤¦ÐÕÝÜÈÖÝ×ÕÈÑÖÈÝ¤Ñ¡È¤ÒÕ×Ý£¤¡Ý¦×Ýå" 400 -
+[23/Mar/2021 20:06:04] code 400, message Bad request syntax ('#ST')
+[23/Mar/2021 20:06:04] "#ST" 400 -
+[23/Mar/2021 20:06:12] code 400, message Bad request version ('\x00\x00\x00\x03\x00\x05nmap\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x7f')
+[23/Mar/2021 20:06:12] " <   d e   = IEEEM  lsqlexec      9.280  RDS#R000000  sqli   3          nmap  nmap ol         =tlitcp      h     nmap            j   " 400 -
+[23/Mar/2021 20:06:18] code 400, message Bad request syntax ('\x002Ð\x01\x00\x01\x00,\x10A\x00\x04\x11^\x00\x04\x11m\x00\x04\x11Z\x00\x18\x14\x04\x14\x03\x00\x07$\x07\x00\x08$\x0f\x00\x08\x14@\x00\x08\x14t\x00\x08\x00\x04\x11G')
+[23/Mar/2021 20:06:18] " 2Ð  ,A ^ m Z  $ $ @ t  G" 400 -
+[23/Mar/2021 20:06:19] code 400, message Bad HTTP/0.9 request type ('TSH')
+[23/Mar/2021 20:06:19] "TSH    ì1           ¸  ID  " 400 -
+Not Found: /server-info
+[23/Mar/2021 20:06:21] "GET /server-info HTTP/1.1" 404 4133
+[23/Mar/2021 20:06:28] code 400, message Bad request syntax ('A\x00\x00\x00:0\x00\x00ÿÿÿÿÔ\x07\x00\x00\x00\x00\x00\x00test.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x1b\x00\x00\x00\x01serverStatus\x00\x00\x00\x00\x00\x00\x00ð?\x00')
+[23/Mar/2021 20:06:28] "A   :0  ÿÿÿÿÔ      test.$cmd     ÿÿÿÿ   serverStatus       ð? " 400 -
+[23/Mar/2021 20:06:28] code 400, message Bad request syntax ('*1')
+[23/Mar/2021 20:06:28] "*1" 400 -
+[23/Mar/2021 20:06:33] code 400, message Bad request syntax ('\x00\x00\x00\x01\x07')
+[23/Mar/2021 20:06:33] "   " 400 -
+[23/Mar/2021 20:06:33] code 400, message Bad HTTP/0.9 request type ('show')
+[23/Mar/2021 20:06:33] "show info" 400 -
+[23/Mar/2021 20:06:38] code 400, message Bad request syntax ('\x80\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x15ðÑb\x00\x00\x00\x00\x00\x00\x00\x00')
+[23/Mar/2021 20:06:38] "          ðÑb        " 400 -
+[23/Mar/2021 20:06:43] code 400, message Bad request syntax ('\x00\x01n')
+[23/Mar/2021 20:06:43] " n" 400 -
+[23/Mar/2021 20:06:49] code 400, message Bad request syntax ('vp3')
+[23/Mar/2021 20:06:49] "vp3" 400 -
+[23/Mar/2021 20:06:54] code 400, message Bad request syntax ('\x94\x00ÍïÑa\x91\x03')
+[23/Mar/2021 20:06:54] " ÍïÑa" 400 -
+[23/Mar/2021 20:06:59] code 400, message Bad request syntax ('þ\x01')
+[23/Mar/2021 20:06:59] "þ" 400 -
+Not Found: /version
+[23/Mar/2021 20:06:59] "GET /version HTTP/1.1" 404 4121
+[23/Mar/2021 20:07:04] code 400, message Bad request syntax ('\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06')
+[23/Mar/2021 20:07:04] "       " 400 -
+[23/Mar/2021 20:07:09] code 400, message Bad request syntax ('ÿû\x18ÿú\x18\x00IBM-3279-4-Eÿðÿû\x19ÿý\x19ÿû\x00ÿý\x00')
+[23/Mar/2021 20:07:09] "ÿûÿú IBM-3279-4-Eÿðÿûÿýÿû ÿý " 400 -
+[23/Mar/2021 20:07:14] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+[23/Mar/2021 20:07:14] "GIOP  $                abcdef     get     " 400 -
+[23/Mar/2021 20:07:19] code 400, message Bad request syntax ('VERSION')
+[23/Mar/2021 20:07:19] "VERSION" 400 -
+[23/Mar/2021 20:07:24] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+[23/Mar/2021 20:07:24] "CNXN         2  ¼±§±host:: " 400 -
+[23/Mar/2021 20:07:29] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00\x10\x00\x00\x00')
+[23/Mar/2021 20:07:29] "      {"code":106}" 400 -
+[23/Mar/2021 20:07:34] code 400, message Bad request syntax ('\x0c\x00\x01\x00\x00\x00ImYorDad0u\x00\x00')
+[23/Mar/2021 20:07:34] "    ImYorDad0u  " 400 -
+[23/Mar/2021 20:07:39] code 400, message Bad HTTP/0.9 request type ('ÚÚ\x01\x00\x00\x00\x14\x00\x10\x03\x08\x00\x00\x00')
+[23/Mar/2021 20:07:39] "ÚÚ       M    " 400 -
+[23/Mar/2021 20:09:25] code 400, message Bad request version ('Ê\x99\x9d\x1a%M\x8d')
+[23/Mar/2021 20:09:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[23/Mar/2021 20:09:42] code 400, message Bad request version ('\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[23/Mar/2021 20:09:42] "  (K}                                " 400 -
+Not Found: /favicon.ico
+[23/Mar/2021 23:35:30] "GET /favicon.ico HTTP/1.1" 404 4123
+[23/Mar/2021 23:35:31] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+----------------------------------------
+Exception happened during processing of request from ('45.146.166.116', 53658)
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[24/Mar/2021 00:02:54] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[24/Mar/2021 00:02:54] "  /*à     Cookie: mstshash=Administr" 400 -
+[24/Mar/2021 00:02:55] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[24/Mar/2021 00:02:55] "  /*à     Cookie: mstshash=Administr" 400 -
+[24/Mar/2021 04:48:19] code 400, message Bad request version ("\x10ah,k\x17\x97\x13\x9b\x02\x08\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+[24/Mar/2021 04:48:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[24/Mar/2021 04:48:19] "GET / HTTP/1.1" 200 5111
+[24/Mar/2021 11:02:57] code 400, message Bad request version ('ÿ\x04ÖØ\x99fMiåº6\x06\x83\x9a\x0f4b\x9e\x08!9\x00\x00\x16À\x14\x005À\x13\x00/À,À+À0\x00\x9dÀ/\x00\x9c\x00')
+[24/Mar/2021 11:02:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[24/Mar/2021 18:17:10] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[24/Mar/2021 18:17:12] "GET /favicon.ico HTTP/1.1" 404 4123
+[24/Mar/2021 18:17:12] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[24/Mar/2021 18:17:16] "GET /industryField/ HTTP/1.1" 200 4437
+[24/Mar/2021 18:17:17] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[24/Mar/2021 18:17:20] "GET /workYear/ HTTP/1.1" 200 4429
+[24/Mar/2021 18:17:20] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[24/Mar/2021 18:17:23] "GET /education/ HTTP/1.1" 200 4430
+[24/Mar/2021 18:17:23] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[24/Mar/2021 18:18:10] "GET / HTTP/1.1" 200 5111
+[24/Mar/2021 18:18:24] "GET /workYear HTTP/1.1" 301 0
+[24/Mar/2021 18:24:12] "GET / HTTP/1.1" 200 5111
+[24/Mar/2021 18:24:13] "GET /demo/PositionNameView HTTP/1.1" 301 0
+[24/Mar/2021 18:24:14] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[24/Mar/2021 18:24:17] "GET /district HTTP/1.1" 301 0
+[24/Mar/2021 18:24:17] "GET /district/ HTTP/1.1" 200 3688
+[24/Mar/2021 18:24:17] "GET /demo/DistrictView HTTP/1.1" 301 0
+[24/Mar/2021 18:24:18] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[24/Mar/2021 19:41:19] "GET / HTTP/1.1" 200 5111
+[24/Mar/2021 23:35:23] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[24/Mar/2021 23:35:25] "GET /favicon.ico HTTP/1.1" 404 4123
+[24/Mar/2021 23:35:25] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[24/Mar/2021 23:35:27] "GET /industryField/ HTTP/1.1" 200 4437
+[24/Mar/2021 23:35:28] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[24/Mar/2021 23:35:37] "GET /workYear/ HTTP/1.1" 200 4429
+[24/Mar/2021 23:35:38] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[24/Mar/2021 23:35:41] "GET /wordCloud/ HTTP/1.1" 200 4659
+[24/Mar/2021 23:35:41] "GET /demo/WordCloudView/ HTTP/1.1" 200 96171
+[24/Mar/2021 23:35:51] "GET /industryField/ HTTP/1.1" 200 4437
+[24/Mar/2021 23:35:52] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[24/Mar/2021 23:35:53] "GET /salary/ HTTP/1.1" 200 3586
+[24/Mar/2021 23:35:54] "GET /salary/ HTTP/1.1" 200 3586
+[24/Mar/2021 23:35:55] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[24/Mar/2021 23:35:55] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[24/Mar/2021 23:36:54] "GET /salary HTTP/1.1" 301 0
+[25/Mar/2021 08:54:50] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[25/Mar/2021 08:54:52] "GET /favicon.ico HTTP/1.1" 404 4123
+[25/Mar/2021 08:54:52] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[25/Mar/2021 08:55:08] "GET /industryField/ HTTP/1.1" 200 4437
+[25/Mar/2021 08:55:08] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[25/Mar/2021 08:55:14] "GET /companySize/ HTTP/1.1" 200 4434
+[25/Mar/2021 08:55:15] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[25/Mar/2021 08:55:20] "GET /workYear/ HTTP/1.1" 200 4429
+[25/Mar/2021 08:55:20] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[25/Mar/2021 08:55:25] "GET /district/ HTTP/1.1" 200 3688
+[25/Mar/2021 08:55:26] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[25/Mar/2021 08:55:35] "GET /education/ HTTP/1.1" 200 4430
+[25/Mar/2021 08:55:35] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[25/Mar/2021 08:55:44] "GET /wordCloud/ HTTP/1.1" 200 4659
+[25/Mar/2021 08:55:45] "GET /demo/WordCloudView/ HTTP/1.1" 200 96149
+[25/Mar/2021 08:56:08] "GET /industryField HTTP/1.1" 301 0
+[25/Mar/2021 08:56:14] "GET /companySize HTTP/1.1" 301 0
+[25/Mar/2021 08:56:55] "GET /companySize/ HTTP/1.1" 200 4434
+[25/Mar/2021 08:56:56] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[25/Mar/2021 08:57:01] "GET / HTTP/1.1" 200 5111
+[25/Mar/2021 08:57:02] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[25/Mar/2021 08:57:07] "GET /industryField/ HTTP/1.1" 200 4437
+[25/Mar/2021 08:57:08] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[25/Mar/2021 08:57:12] "GET /salary/ HTTP/1.1" 200 3586
+[25/Mar/2021 08:57:13] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[25/Mar/2021 13:56:34] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[25/Mar/2021 13:56:34] "  /*à     Cookie: mstshash=Administr" 400 -
+[25/Mar/2021 14:30:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[25/Mar/2021 14:30:58] "  /*à     Cookie: mstshash=Administr" 400 -
+[25/Mar/2021 16:35:42] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[25/Mar/2021 16:35:42] "  /*à     Cookie: mstshash=Administr" 400 -
+[25/Mar/2021 18:38:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[25/Mar/2021 18:38:41] "  /*à     Cookie: mstshash=Administr" 400 -
+[25/Mar/2021 18:52:29] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[25/Mar/2021 18:52:29] "  /*à     Cookie: mstshash=Administr" 400 -
+[25/Mar/2021 23:33:58] "GET / HTTP/1.1" 200 5111
+----------------------------------------
+Exception happened during processing of request from ('219.138.93.167', 60000)
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[27/Mar/2021 00:21:04] code 400, message Bad HTTP/0.9 request type ('xx')
+[27/Mar/2021 00:21:04] "xxSA52b -" 400 -
+[27/Mar/2021 00:23:15] code 400, message Bad request syntax ('&&&&~\x04»8ÅaýT\x07P.VJÃ\x04;\x13\x0600-0C-29-B1-35-79')
+[27/Mar/2021 00:23:15] "&&&&~»8ÅaýTP.VJÃ;00-0C-29-B1-35-79" 400 -
+[27/Mar/2021 00:23:15,977] - Broken pipe from ('161.189.192.94', 36996)
+
+[27/Mar/2021 00:27:11] code 400, message Bad request syntax ('[\x00\x00\x00H\x00\x00\x00\x01\x10\x01\x00\x01\x04j\x00\x00\x01\x00\x00\x00\x00')
+[27/Mar/2021 00:27:11] "[   H    j      " 400 -
+[27/Mar/2021 00:29:12] code 400, message Bad request syntax ('~~\x01\x00\x124Vx\x124/\x00\x08\x02\x00\x03Y\x10\x11\x15Q\x11\x03kÊ')
+[27/Mar/2021 00:29:12] "~~ 4Vx4/  YQkÊ" 400 -
+[27/Mar/2021 00:29:12,792] - Broken pipe from ('161.189.192.94', 42924)
+
+[27/Mar/2021 00:31:57] code 400, message Bad request syntax ('333766643833656338616434363333643963363962386536653538383937393235613033653338636434')
+[27/Mar/2021 00:31:57] "333766643833656338616434363333643963363962386536653538383937393235613033653338636434" 400 -
+[27/Mar/2021 04:55:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Mar/2021 04:55:53] "  /*à     Cookie: mstshash=Administr" 400 -
+[27/Mar/2021 06:30:26] code 400, message Bad request version ("«\x9cß,÷\x16ÝßÌî\x1bá\x86ÝÉF;F[\x82û\x88\x8dé\x9f_\x19\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[27/Mar/2021 06:30:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Mar/2021 06:30:52] code 400, message Bad request version ('\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[27/Mar/2021 06:30:52] "  (1þ	à                                " 400 -
+[27/Mar/2021 09:33:32] code 400, message Bad request version ("â\x81\x8b\x8d\x0e÷~8\x92[\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+[27/Mar/2021 09:33:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Mar/2021 09:33:32] "GET / HTTP/1.1" 200 5111
+----------------------------------------
+Exception happened during processing of request from ('39.103.151.239', 38350)
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 650, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/miniconda3/envs/jobas/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/miniconda3/envs/jobas/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[27/Mar/2021 09:35:20] code 400, message Bad request version ("·ñ\\,tý0\x1a©Ò:ãð\x8ay]\x8c#M¢eYs\x14Û8\x96µ\x88\\\x99\x8e\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+[27/Mar/2021 09:35:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Mar/2021 09:35:21] "GET / HTTP/1.1" 200 5111
+[27/Mar/2021 09:35:46] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Mar/2021 09:35:46] "  /*à     Cookie: mstshash=Administr" 400 -
+[27/Mar/2021 13:03:49] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Mar/2021 13:03:49] "  /*à     Cookie: mstshash=Administr" 400 -
+[27/Mar/2021 16:44:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Mar/2021 16:44:57] "  /*à     Cookie: mstshash=Administr" 400 -
+[27/Mar/2021 17:22:32] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Mar/2021 17:22:32] "  /*à     Cookie: mstshash=Administr" 400 -
+[27/Mar/2021 20:07:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Mar/2021 20:07:57] "  /*à     Cookie: mstshash=Administr" 400 -
+[27/Mar/2021 20:29:43] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Mar/2021 20:29:43] "  /*à     Cookie: mstshash=Administr" 400 -
+[27/Mar/2021 21:08:32] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Mar/2021 21:08:32] "  /*à     Cookie: mstshash=Administr" 400 -
+[27/Mar/2021 21:35:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Mar/2021 21:35:57] "  /*à     Cookie: mstshash=Administr" 400 -
+[28/Mar/2021 08:44:35] "GET / HTTP/1.0" 200 5111
+[28/Mar/2021 08:44:37] "OPTIONS / HTTP/1.0" 200 164
+[28/Mar/2021 08:44:42] code 400, message Bad request version ('RTSP/1.0')
+[28/Mar/2021 08:44:42] "OPTIONS / RTSP/1.0" 400 -
+[28/Mar/2021 08:44:52] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[28/Mar/2021 08:44:52] "  (rþ          |                    " 400 -
+[28/Mar/2021 08:44:58] code 400, message Bad HTTP/0.9 request type ('\x00')
+[28/Mar/2021 08:44:58] "          versionbind   " 400 -
+[28/Mar/2021 08:45:04] code 400, message Bad HTTP/0.9 request type ('\x00')
+[28/Mar/2021 08:45:04] "            " 400 -
+[28/Mar/2021 08:45:05] code 400, message Bad request syntax ('EHLO')
+[28/Mar/2021 08:45:05] "EHLO" 400 -
+[28/Mar/2021 08:45:07] code 400, message Bad request syntax ('HELP')
+[28/Mar/2021 08:45:07] "HELP" 400 -
+[28/Mar/2021 08:45:09] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[28/Mar/2021 08:45:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Mar/2021 08:45:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[28/Mar/2021 08:45:10] "  *%à     Cookie: mstshash=nmap" 400 -
+[28/Mar/2021 08:45:12] code 400, message Bad request version ('\x00/\x00')
+[28/Mar/2021 08:45:12] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Mar/2021 08:45:14] code 400, message Bad HTTP/0.9 request type ('\x80\x9e\x01\x03\x01\x00u\x00\x00\x00')
+[28/Mar/2021 08:45:14] " u      f  e  d  c  b  :  9  8  5  4  3  2  /                        " 400 -
+[28/Mar/2021 08:45:17] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[28/Mar/2021 08:45:17] "   qjn0k¡¢" 400 -
+[28/Mar/2021 08:45:24] code 400, message Bad request version ('0.12\x00')
+[28/Mar/2021 08:45:24] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[28/Mar/2021 08:45:30] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[28/Mar/2021 08:45:30] "l          " 400 -
+Not Found: /nice ports,/Trinity.txt.bak
+[28/Mar/2021 08:45:31] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 4183
+[28/Mar/2021 08:45:33] code 400, message Bad request syntax ('\x01default')
+[28/Mar/2021 08:45:33] "default" 400 -
+[28/Mar/2021 08:45:35] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[28/Mar/2021 08:45:35] "0   -c   $ " 400 -
+[28/Mar/2021 08:45:42] code 400, message Bad HTTP/0.9 request type ('0')
+[28/Mar/2021 08:45:42] "0`  " 400 -
+[28/Mar/2021 08:45:43] code 400, message Bad request version ('SIP/2.0')
+[28/Mar/2021 08:45:43] "OPTIONS sip:nm SIP/2.0" 400 -
+[28/Mar/2021 08:45:50] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+[28/Mar/2021 08:45:50] "TNMP   TNME   " 400 -
+[28/Mar/2021 08:45:55] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+[28/Mar/2021 08:45:55] "  à     " 400 -
+[28/Mar/2021 08:46:01] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+[28/Mar/2021 08:46:01] "DmdT           ÿÿ" 400 -
+[28/Mar/2021 08:46:07] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+[28/Mar/2021 08:46:07] ":   /     @  =            /         @                 " 400 -
+[28/Mar/2021 08:46:12] code 400, message Bad request syntax ('DIST00000001ARGC00000005ARGV00000002ccARGV00000002-cARGV00000006nmap.cARGV00000002-oARGV00000006nmap.oDOTI00000000')
+[28/Mar/2021 08:46:12] "DIST00000001ARGC00000005ARGV00000002ccARGV00000002-cARGV00000006nmap.cARGV00000002-oARGV00000006nmap.oDOTI00000000" 400 -
+[28/Mar/2021 08:46:18] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[28/Mar/2021 08:46:18] "JRMI K" 400 -
+[28/Mar/2021 08:46:24] code 400, message Bad request syntax ('\x01\x00\x00\x00\x01\x00\x00\x00\x08\x08')
+[28/Mar/2021 08:46:24] "      " 400 -
+[28/Mar/2021 08:46:25] code 400, message Bad request version ('>')
+[28/Mar/2021 08:46:25] "< NTP/1.0 >" 400 -
+[28/Mar/2021 08:46:30] code 400, message Bad request version ('\x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+[28/Mar/2021 08:46:30] "  ýÎú°    MMS                    ðððð    N S P l a y e r / 9 . 0 . 0 . 2 9 8 0 ;   { 0 0 0 0 A A 0 0 - 0 A 0 0 - 0 0 a 0 - A A 0 A - 0 0 0 0 A 0 A A 0 A A 0 }   àmß_" 400 -
+[28/Mar/2021 08:46:36] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[28/Mar/2021 08:46:36] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[28/Mar/2021 08:46:36] code 400, message Bad request syntax ('Subscribe')
+[28/Mar/2021 08:46:36] "Subscribe" 400 -
+[28/Mar/2021 08:46:39] code 400, message Bad request syntax ('Query')
+[28/Mar/2021 08:46:39] "Query" 400 -
+[28/Mar/2021 08:46:40] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+[28/Mar/2021 08:46:40] "  " 400 -
+[28/Mar/2021 08:46:47] code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+[28/Mar/2021 08:46:47] "   root " 400 -
+[28/Mar/2021 08:46:52] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[28/Mar/2021 08:46:52] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[28/Mar/2021 08:46:53] code 400, message Bad request syntax ('HELP')
+[28/Mar/2021 08:46:53] "HELP" 400 -
+[28/Mar/2021 08:46:54] code 400, message Bad request syntax ('stats')
+[28/Mar/2021 08:46:54] "stats" 400 -
+[28/Mar/2021 08:46:55] code 400, message Bad request version ('\x06\x00\x00\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x02\x00\x00\x00')
+[28/Mar/2021 08:46:55] "            $   service_mgr       scanner nmap                     " 400 -
+[28/Mar/2021 08:47:01] code 400, message Bad request version ('\x00\x00\x00\x04')
+[28/Mar/2021 08:47:01] "    DB2DAS         9z                       " 400 -
+[28/Mar/2021 08:47:07] code 400, message Bad request version ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ä\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x7f')
+[28/Mar/2021 08:47:07] "Â     ¶  SQLDB2RA              	     @   	     @        @        @   @     @        @        @        @        @         @                                         @        @                        @   	     @   	                                                                 @         @                             ÿ                     ä                   " 400 -
+[28/Mar/2021 08:47:13] code 400, message Bad request version ('1\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[28/Mar/2021 08:47:13] "Client string for PARC version 1 Wire Encryption version 1                                                                                                                                                                                                     " 400 -
+[28/Mar/2021 08:47:13] code 400, message Bad HTTP/0.9 request type ('<\x00K\x00\x00\x00')
+[28/Mar/2021 08:47:13] "< K             ÿÿÿÿ  " 400 -
+[28/Mar/2021 08:47:14] code 400, message Bad request syntax ('\x124\x00\x01')
+[28/Mar/2021 08:47:14] "4 " 400 -
+[28/Mar/2021 08:47:20] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+[28/Mar/2021 08:47:20] "              " 400 -
+[28/Mar/2021 08:47:20] code 400, message Bad request syntax ('serverstatus')
+[28/Mar/2021 08:47:20] "serverstatus" 400 -
+[28/Mar/2021 08:47:25] code 400, message Bad HTTP/0.9 request type ('Âååå\x9e')
+[28/Mar/2021 08:47:25] "Âååå ×¤¦ÐÕÝÜÈÖÝ×ÕÈÑÖÈÝ¤Ñ¡È¤ÒÕ×Ý£¤¡Ý¦×Ýå" 400 -
+[28/Mar/2021 08:47:25] code 400, message Bad request syntax ('#ST')
+[28/Mar/2021 08:47:25] "#ST" 400 -
+[28/Mar/2021 08:47:31] code 400, message Bad request version ('\x00\x00\x00\x03\x00\x05nmap\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x7f')
+[28/Mar/2021 08:47:31] " <   d e   = IEEEM  lsqlexec      9.280  RDS#R000000  sqli   3          nmap  nmap ol         =tlitcp      h     nmap            j   " 400 -
+[28/Mar/2021 08:47:36] code 400, message Bad request syntax ('\x002Ð\x01\x00\x01\x00,\x10A\x00\x04\x11^\x00\x04\x11m\x00\x04\x11Z\x00\x18\x14\x04\x14\x03\x00\x07$\x07\x00\x08$\x0f\x00\x08\x14@\x00\x08\x14t\x00\x08\x00\x04\x11G')
+[28/Mar/2021 08:47:36] " 2Ð  ,A ^ m Z  $ $ @ t  G" 400 -
+[28/Mar/2021 08:47:37] code 400, message Bad HTTP/0.9 request type ('TSH')
+[28/Mar/2021 08:47:37] "TSH    ì1           ¸  ID  " 400 -
+Not Found: /server-info
+[28/Mar/2021 08:47:37] "GET /server-info HTTP/1.1" 404 4133
+[28/Mar/2021 08:47:43] code 400, message Bad request syntax ('A\x00\x00\x00:0\x00\x00ÿÿÿÿÔ\x07\x00\x00\x00\x00\x00\x00test.$cmd\x00\x00\x00\x00\x00ÿÿÿÿ\x1b\x00\x00\x00\x01serverStatus\x00\x00\x00\x00\x00\x00\x00ð?\x00')
+[28/Mar/2021 08:47:43] "A   :0  ÿÿÿÿÔ      test.$cmd     ÿÿÿÿ   serverStatus       ð? " 400 -
+[28/Mar/2021 08:47:43] code 400, message Bad request syntax ('*1')
+[28/Mar/2021 08:47:43] "*1" 400 -
+[28/Mar/2021 08:47:48] code 400, message Bad request syntax ('\x00\x00\x00\x01\x07')
+[28/Mar/2021 08:47:48] "   " 400 -
+[28/Mar/2021 08:47:48] code 400, message Bad HTTP/0.9 request type ('show')
+[28/Mar/2021 08:47:48] "show info" 400 -
+[28/Mar/2021 08:47:53] code 400, message Bad request syntax ('\x80\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x15ðÑb\x00\x00\x00\x00\x00\x00\x00\x00')
+[28/Mar/2021 08:47:53] "          ðÑb        " 400 -
+[28/Mar/2021 08:47:58] code 400, message Bad request syntax ('\x00\x01n')
+[28/Mar/2021 08:47:58] " n" 400 -
+[28/Mar/2021 08:48:03] code 400, message Bad request syntax ('vp3')
+[28/Mar/2021 08:48:03] "vp3" 400 -
+[28/Mar/2021 08:48:08] code 400, message Bad request syntax ('\x94\x00ÍïÑa\x91\x03')
+[28/Mar/2021 08:48:08] " ÍïÑa" 400 -
+[28/Mar/2021 08:48:13] code 400, message Bad request syntax ('þ\x01')
+[28/Mar/2021 08:48:13] "þ" 400 -
+Not Found: /version
+[28/Mar/2021 08:48:14] "GET /version HTTP/1.1" 404 4121
+[28/Mar/2021 08:48:19] code 400, message Bad request syntax ('\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06')
+[28/Mar/2021 08:48:19] "       " 400 -
+[28/Mar/2021 08:48:24] code 400, message Bad request syntax ('ÿû\x18ÿú\x18\x00IBM-3279-4-Eÿðÿû\x19ÿý\x19ÿû\x00ÿý\x00')
+[28/Mar/2021 08:48:24] "ÿûÿú IBM-3279-4-Eÿðÿûÿýÿû ÿý " 400 -
+[28/Mar/2021 08:48:29] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+[28/Mar/2021 08:48:29] "GIOP  $                abcdef     get     " 400 -
+[28/Mar/2021 08:48:34] code 400, message Bad request syntax ('VERSION')
+[28/Mar/2021 08:48:34] "VERSION" 400 -
+[28/Mar/2021 08:48:39] code 400, message Bad request syntax ('CNXN\x00\x00\x00\x01\x00\x10\x00\x00\x07\x00\x00\x002\x02\x00\x00¼±§±host::\x00')
+[28/Mar/2021 08:48:39] "CNXN         2  ¼±§±host:: " 400 -
+[28/Mar/2021 08:48:44] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00\x10\x00\x00\x00')
+[28/Mar/2021 08:48:44] "      {"code":106}" 400 -
+[28/Mar/2021 08:48:49] code 400, message Bad request syntax ('\x0c\x00\x01\x00\x00\x00ImYorDad0u\x00\x00')
+[28/Mar/2021 08:48:49] "    ImYorDad0u  " 400 -
+[28/Mar/2021 08:48:54] code 400, message Bad HTTP/0.9 request type ('ÚÚ\x01\x00\x00\x00\x14\x00\x10\x03\x08\x00\x00\x00')
+[28/Mar/2021 08:48:54] "ÚÚ       M    " 400 -
+[28/Mar/2021 08:51:18] code 400, message Bad request version ('\x02æUÞ\x9a')
+[28/Mar/2021 08:51:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Mar/2021 08:51:27] code 400, message Bad HTTP/0.9 request type ('\x80\x00\x00(\x0eÃw\x8c\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86')
+[28/Mar/2021 08:51:27] "  (Ãw                                " 400 -
+[28/Mar/2021 13:40:08] code 400, message Bad request version ("r\x83ç\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+[28/Mar/2021 13:40:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Mar/2021 13:40:08] "GET / HTTP/1.1" 200 5111
+[28/Mar/2021 14:20:40] "GET / HTTP/1.0" 200 5111
+[28/Mar/2021 14:25:06] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[28/Mar/2021 14:25:06] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /favicon.ico
+[28/Mar/2021 14:36:34] "GET /favicon.ico HTTP/1.1" 404 4123
+[28/Mar/2021 15:01:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[28/Mar/2021 15:01:19] "  /*à     Cookie: mstshash=Administr" 400 -
+[28/Mar/2021 15:45:01] "GET / HTTP/1.1" 200 5111
+[28/Mar/2021 16:06:52] "GET / HTTP/1.1" 200 5111
+[28/Mar/2021 16:06:53] "GET /demo/PositionNameView HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[28/Mar/2021 16:06:53] "GET /favicon.ico HTTP/1.1" 404 4123
+[28/Mar/2021 16:06:54] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[28/Mar/2021 16:07:05] "GET /salary HTTP/1.1" 301 0
+[28/Mar/2021 16:07:05] "GET /salary/ HTTP/1.1" 200 3586
+[28/Mar/2021 16:07:06] "GET /demo/SalaryView HTTP/1.1" 301 0
+[28/Mar/2021 16:07:06] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[28/Mar/2021 16:07:07] "GET /industryField HTTP/1.1" 301 0
+[28/Mar/2021 16:07:07] "GET /industryField/ HTTP/1.1" 200 4437
+[28/Mar/2021 16:07:08] "GET /demo/IndustryFieldView HTTP/1.1" 301 0
+[28/Mar/2021 16:07:08] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[28/Mar/2021 16:07:09] "GET /companySize HTTP/1.1" 301 0
+[28/Mar/2021 16:07:09] "GET /companySize/ HTTP/1.1" 200 4434
+[28/Mar/2021 16:07:09] "GET /demo/CompanySizeView HTTP/1.1" 301 0
+[28/Mar/2021 16:07:10] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[28/Mar/2021 16:07:11] "GET /workYear HTTP/1.1" 301 0
+[28/Mar/2021 16:07:11] "GET /workYear/ HTTP/1.1" 200 4429
+[28/Mar/2021 16:07:11] "GET /demo/WorkYearView HTTP/1.1" 301 0
+[28/Mar/2021 16:07:11] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[28/Mar/2021 16:07:12] "GET /district HTTP/1.1" 301 0
+[28/Mar/2021 16:07:12] "GET /district/ HTTP/1.1" 200 3688
+[28/Mar/2021 16:07:12] "GET /demo/DistrictView HTTP/1.1" 301 0
+[28/Mar/2021 16:07:13] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[28/Mar/2021 16:07:14] "GET /education HTTP/1.1" 301 0
+[28/Mar/2021 16:07:15] "GET /education/ HTTP/1.1" 200 4430
+[28/Mar/2021 16:07:15] "GET /demo/EducationView HTTP/1.1" 301 0
+[28/Mar/2021 16:07:15] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[28/Mar/2021 16:07:16] "GET /wordCloud HTTP/1.1" 301 0
+[28/Mar/2021 16:07:16] "GET /wordCloud/ HTTP/1.1" 200 4659
+[28/Mar/2021 16:07:17] "GET /demo/WordCloudView HTTP/1.1" 301 0
+[28/Mar/2021 16:07:17] "GET /demo/WordCloudView/ HTTP/1.1" 200 96212
+[28/Mar/2021 16:07:20] "GET /wordCloud/ HTTP/1.1" 200 4659
+[28/Mar/2021 16:07:20] "GET /demo/WordCloudView/ HTTP/1.1" 200 96198
+[28/Mar/2021 16:07:21] "GET /wordCloud/ HTTP/1.1" 200 4659
+[28/Mar/2021 16:07:22] "GET /demo/WordCloudView/ HTTP/1.1" 200 96244
+[28/Mar/2021 16:07:23] "GET /wordCloud/ HTTP/1.1" 200 4659
+[28/Mar/2021 16:07:23] "GET /demo/WordCloudView/ HTTP/1.1" 200 96184
+[28/Mar/2021 16:07:25] "GET /wordCloud/ HTTP/1.1" 200 4659
+[28/Mar/2021 16:07:25] "GET /demo/WordCloudView/ HTTP/1.1" 200 96197
+[28/Mar/2021 16:07:27] "GET /wordCloud/ HTTP/1.1" 200 4659
+[28/Mar/2021 16:07:27] "GET /demo/WordCloudView/ HTTP/1.1" 200 96253
+[28/Mar/2021 16:07:28] "GET /wordCloud/ HTTP/1.1" 200 4659
+[28/Mar/2021 16:07:29] "GET /demo/WordCloudView/ HTTP/1.1" 200 96269
+[28/Mar/2021 16:16:31] "GET / HTTP/1.1" 200 5111
+[28/Mar/2021 16:16:32] "GET /demo/PositionNameView HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[28/Mar/2021 16:16:32] "GET /favicon.ico HTTP/1.1" 404 4123
+[28/Mar/2021 16:16:33] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[28/Mar/2021 16:20:19] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[28/Mar/2021 16:20:19] "GET /favicon.ico HTTP/1.1" 404 4123
+[28/Mar/2021 16:20:20] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[28/Mar/2021 16:20:35] "GET /salary HTTP/1.1" 301 0
+[28/Mar/2021 16:20:35] "GET /salary/ HTTP/1.1" 200 3586
+[28/Mar/2021 16:20:37] "GET /salary/ HTTP/1.1" 200 3586
+[28/Mar/2021 16:20:37] "GET /demo/SalaryView HTTP/1.1" 301 0
+[28/Mar/2021 16:20:38] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[28/Mar/2021 16:20:44] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[28/Mar/2021 16:20:57] "GET / HTTP/1.1" 200 5111
+[28/Mar/2021 16:20:58] "GET /demo/PositionNameView HTTP/1.1" 301 0
+[28/Mar/2021 16:20:58] "GET / HTTP/1.1" 200 5111
+[28/Mar/2021 16:20:58] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[28/Mar/2021 16:20:59] "GET /demo/PositionNameView HTTP/1.1" 301 0
+Not Found: /favicon.ico
+[28/Mar/2021 16:20:59] "GET /favicon.ico HTTP/1.1" 404 4123
+[28/Mar/2021 16:21:00] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[28/Mar/2021 16:21:03] "GET /salary HTTP/1.1" 301 0
+[28/Mar/2021 16:21:03] "GET /salary/ HTTP/1.1" 200 3586
+[28/Mar/2021 16:21:03] "GET /demo/SalaryView HTTP/1.1" 301 0
+[28/Mar/2021 16:21:04] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[28/Mar/2021 16:21:05] "GET /industryField HTTP/1.1" 301 0
+[28/Mar/2021 16:21:05] "GET /industryField/ HTTP/1.1" 200 4437
+[28/Mar/2021 16:21:05] "GET /demo/IndustryFieldView HTTP/1.1" 301 0
+[28/Mar/2021 16:21:05] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[28/Mar/2021 16:21:06] "GET /companySize HTTP/1.1" 301 0
+[28/Mar/2021 16:21:06] "GET /companySize/ HTTP/1.1" 200 4434
+[28/Mar/2021 16:21:06] "GET /demo/CompanySizeView HTTP/1.1" 301 0
+[28/Mar/2021 16:21:07] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[28/Mar/2021 16:21:08] "GET /workYear HTTP/1.1" 301 0
+[28/Mar/2021 16:21:08] "GET /workYear/ HTTP/1.1" 200 4429
+[28/Mar/2021 16:21:08] "GET /demo/WorkYearView HTTP/1.1" 301 0
+[28/Mar/2021 16:21:08] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[28/Mar/2021 16:21:09] "GET /district HTTP/1.1" 301 0
+[28/Mar/2021 16:21:09] "GET /district/ HTTP/1.1" 200 3688
+[28/Mar/2021 16:21:10] "GET /demo/DistrictView HTTP/1.1" 301 0
+[28/Mar/2021 16:21:11] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[28/Mar/2021 16:21:12] "GET /education HTTP/1.1" 301 0
+[28/Mar/2021 16:21:12] "GET /education/ HTTP/1.1" 200 4430
+[28/Mar/2021 16:21:12] "GET /demo/EducationView HTTP/1.1" 301 0
+[28/Mar/2021 16:21:12] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[28/Mar/2021 16:21:12] "GET /wordCloud HTTP/1.1" 301 0
+[28/Mar/2021 16:21:12] "GET /wordCloud/ HTTP/1.1" 200 4659
+[28/Mar/2021 16:21:13] "GET /demo/WordCloudView HTTP/1.1" 301 0
+[28/Mar/2021 16:21:13] "GET /demo/WordCloudView/ HTTP/1.1" 200 96188
+[28/Mar/2021 16:21:17] "GET / HTTP/1.1" 200 5111
+[28/Mar/2021 16:21:35] "GET /salary HTTP/1.1" 301 0
+[28/Mar/2021 17:43:29] "GET / HTTP/1.1" 200 5111
+[28/Mar/2021 17:43:30] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[28/Mar/2021 17:43:30] "GET /salary/ HTTP/1.1" 200 3586
+[28/Mar/2021 17:43:31] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[28/Mar/2021 17:43:32] "GET /industryField/ HTTP/1.1" 200 4437
+[28/Mar/2021 17:43:32] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[28/Mar/2021 17:43:33] "GET /companySize/ HTTP/1.1" 200 4434
+[28/Mar/2021 17:43:34] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[28/Mar/2021 17:43:35] "GET /workYear/ HTTP/1.1" 200 4429
+[28/Mar/2021 17:43:35] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[28/Mar/2021 17:43:36] "GET /district/ HTTP/1.1" 200 3688
+[28/Mar/2021 17:43:37] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[28/Mar/2021 17:43:38] "GET /education/ HTTP/1.1" 200 4430
+[28/Mar/2021 17:43:39] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[28/Mar/2021 17:43:39] "GET / HTTP/1.1" 200 5111
+[28/Mar/2021 17:43:40] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[28/Mar/2021 17:44:25] "GET /salary/ HTTP/1.1" 200 3586
+[28/Mar/2021 17:44:25] "GET /demo/SalaryView/ HTTP/1.1" 200 2225
+[28/Mar/2021 17:44:26] "GET /industryField/ HTTP/1.1" 200 4437
+[28/Mar/2021 17:44:27] "GET /demo/IndustryFieldView/ HTTP/1.1" 200 7714
+[28/Mar/2021 17:44:27] "GET /companySize/ HTTP/1.1" 200 4434
+[28/Mar/2021 17:44:28] "GET /demo/CompanySizeView/ HTTP/1.1" 200 1820
+[28/Mar/2021 17:44:28] "GET /workYear/ HTTP/1.1" 200 4429
+[28/Mar/2021 17:44:29] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[28/Mar/2021 17:44:29] "GET /district/ HTTP/1.1" 200 3688
+[28/Mar/2021 17:44:30] "GET /education/ HTTP/1.1" 200 4430
+[28/Mar/2021 17:44:30] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[28/Mar/2021 17:44:31] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[28/Mar/2021 17:44:31] "GET /wordCloud/ HTTP/1.1" 200 4659
+[28/Mar/2021 17:44:32] "GET /demo/WordCloudView/ HTTP/1.1" 200 96160
+[28/Mar/2021 17:45:49] "GET / HTTP/1.1" 200 5111
+[28/Mar/2021 18:16:40] "GET / HTTP/1.1" 200 5111
+Not Found: /favicon.ico
+[28/Mar/2021 18:16:42] "GET /favicon.ico HTTP/1.1" 404 4123
+[28/Mar/2021 18:16:42] "GET /demo/PositionNameView/ HTTP/1.1" 200 4898
+[28/Mar/2021 18:16:47] "GET /district/ HTTP/1.1" 200 3688
+[28/Mar/2021 18:16:49] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[28/Mar/2021 18:17:06] "GET /workYear/ HTTP/1.1" 200 4429
+[28/Mar/2021 18:17:07] "GET /demo/WorkYearView/ HTTP/1.1" 200 2077
+[28/Mar/2021 18:17:36] "GET /district/ HTTP/1.1" 200 3688
+[28/Mar/2021 18:17:38] "GET /demo/DistrictView/ HTTP/1.1" 200 2915
+[28/Mar/2021 18:17:39] "GET /education/ HTTP/1.1" 200 4430
+[28/Mar/2021 18:17:39] "GET / HTTP/1.1" 200 5111
+[28/Mar/2021 18:17:40] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[28/Mar/2021 18:17:40] "GET /education/ HTTP/1.1" 200 4430
+[28/Mar/2021 18:17:41] "GET /demo/EducationView/ HTTP/1.1" 200 1731
+[28/Mar/2021 18:17:47] "GET /district HTTP/1.1" 301 0
+[28/Mar/2021 18:18:39] "GET /education HTTP/1.1" 301 0
+[28/Mar/2021 20:18:42] "GET / HTTP/1.1" 200 5111
+[29/Mar/2021 06:03:05] "GET / HTTP/1.1" 200 5111
+Not Found: /explicit_not_exist_path
+[29/Mar/2021 06:03:05] "GET /explicit_not_exist_path HTTP/1.1" 404 4159
+[29/Mar/2021 06:03:05] "GET /admin/ HTTP/1.1" 302 0
+[29/Mar/2021 06:03:06] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2196
+Not Found: /robots.txt
+[29/Mar/2021 06:03:06] "GET /robots.txt HTTP/1.1" 404 4120
+Not Found: /favicon.ico
+[29/Mar/2021 06:03:06] "GET /favicon.ico HTTP/1.1" 404 4123
+Not Found: /login/img/product_logo.png
+[29/Mar/2021 06:03:06] "GET /login/img/product_logo.png HTTP/1.1" 404 4168
+Not Found: /images/ofbiz.ico
+[29/Mar/2021 06:03:06] "GET /images/ofbiz.ico HTTP/1.1" 404 4138
+Not Found: /attachment/logo/logo-default.png
+[29/Mar/2021 06:03:06] "GET /attachment/logo/logo-default.png HTTP/1.1" 404 4186
+[29/Mar/2021 06:03:06] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[29/Mar/2021 06:03:06] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+[29/Mar/2021 06:03:06] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[29/Mar/2021 06:03:06] "GET /static/admin/img/icon-no.gif HTTP/1.1" 404 1693
+[29/Mar/2021 06:03:06] "GET /static/admin/js/LICENSE-JQUERY.txt HTTP/1.1" 404 1711
+[29/Mar/2021 06:03:06] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[29/Mar/2021 06:03:07] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[29/Mar/2021 06:03:07] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+Not Found: /r/cms/www/red/img/prompt.jpg
+[29/Mar/2021 06:03:07] "GET /r/cms/www/red/img/prompt.jpg HTTP/1.1" 404 4174
+Not Found: /r/cms/www/red/style/swiper.min.js
+[29/Mar/2021 06:03:07] "GET /r/cms/www/red/style/swiper.min.js HTTP/1.1" 404 4189
+Not Found: /phpMyAdmin/
+[29/Mar/2021 06:03:07] "GET /phpMyAdmin/ HTTP/1.1" 404 4123
+Not Found: /phpmyadmin/
+[29/Mar/2021 06:03:07] "GET /phpmyadmin/ HTTP/1.1" 404 4123
+Not Found: /wcm/
+[29/Mar/2021 06:03:07] "GET /wcm/ HTTP/1.1" 404 4102
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2021 - 17:26:56
+Django version 3.1.7, using settings 'JobAs.settings'
+Starting development server at http://0.0.0.0:9898/
+Quit the server with CONTROL-C.
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+8
+
+8
+
+8
+
+8
+
+8
+
+8
+-2
+8
+-2
+8
+-2
+8
+-2
+8
+-2
+8
+4
+8
+4
+8
+4
+8
+12
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+1
+-1
+100
+150
+1
+10
+1
+100
+100
+150
+100
+150
+1
+2
+1
+3
+1
+4
+2
+4
+2
+9
+2
+12
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150
+100
+150

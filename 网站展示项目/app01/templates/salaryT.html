@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="row clearfix">
+        <div class="col-md-2 column">
+
+            &nbsp;
+
+        </div>
+        <div class="col-md-8 column">
+            <div id="bar" style="width:1000px; height:600px;"></div>
+            &nbsp;
+        </div>
+        <div class="col-md-2 column">
+            &nbsp;
+        </div>
+    </div>
+
+{% endblock %}
+
+
+{% block script %}
+
+
+<script>
+    var chart = echarts.init(document.getElementById('bar'), 'white', {renderer: 'canvas'});
+
+    $(
+        function () {
+            fetchData(chart);
+        }
+    );
+
+    function fetchData() {
+        $.ajax({
+            type: "GET",
+            url: "/demo/SalaryView",
+            dataType: 'json',
+            success: function (result) {
+                chart.setOption(result.data);
+            }
+        });
+    }
+
+
+</script>
+{% endblock %}
